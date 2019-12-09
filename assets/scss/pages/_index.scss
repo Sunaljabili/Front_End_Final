@@ -1,4 +1,6 @@
-
+body{
+    overflow-x: hidden;
+}
 
 #navbar{
     background-color: $black-color;
@@ -207,7 +209,8 @@
             height: 123px;
             width: 200px;
             background-color: $blue-color;
-          
+            margin-right: 10px;
+            border-radius: 6px;
         .fa-heartbeat{
            
             // background-color:$red-color;
@@ -215,7 +218,7 @@
             text-align: center;
             font-size:$icon-fontsize;
             justify-content: center;
-            margin-top: 55px;
+            margin-top: 30px;
         } 
         h4{
             color: white;
@@ -226,10 +229,12 @@
             height: 123px;
             width: 200px;
             background-color: $orange-color;
+            margin-right: 10px;
+            border-radius: 6px;
           .fa-code{
            color: white;
            font-size:$icon-fontsize;
-           margin-top: 55px;
+           margin-top: 30px;
         }
         h4{
             color: white;
@@ -239,10 +244,12 @@
             height: 123px;
             width: 200px;
             background-color:$green-color;
+            margin-right: 10px;
+            border-radius: 6px;
             .fa-chart-bar{
                 color: white;
            font-size:$icon-fontsize;
-           margin-top: 55px;
+           margin-top: 30px;
 
             }
             h4{
@@ -254,10 +261,12 @@
             height: 123px;
             width: 200px;
             background-color: $red-color;
+            margin-right: 10px;
+            border-radius: 6px;
             .fa-globe{
                 color: white;
                 font-size:$icon-fontsize;
-                margin-top: 55px;
+                margin-top: 30px;
 
             }
             h4{
@@ -268,11 +277,12 @@
             height: 123px;
             width: 200px;
             background-color: $yellow-color;
-
+            margin-right: 10px;
+            border-radius: 6px;
             .fa-book{
                 color: white;
                 font-size:$icon-fontsize;
-                margin-top: 55px;
+                margin-top: 30px;
             }
 
             h4{
@@ -283,11 +293,12 @@
             height: 123px;
             width: 200px;
             background-color: $pink-color;
-
+            margin-right: 10px;
+            border-radius: 6px;
             .fa-camera{
                 color: white;
                 font-size:$icon-fontsize;
-                margin-top: 55px;
+                margin-top: 30px;
                 border-radius: 10px;
             }
             h4{
@@ -528,7 +539,7 @@
      .text{
          h3{
              color: $white-color;
-             font-size: ;
+             
          }
 
          p{

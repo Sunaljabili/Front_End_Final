@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 #navbar {
   background-color: #343a40;
   width: 1349px;
@@ -163,9 +167,11 @@
 }
 
 .mostpopularcategories .regular .heartbeaticon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #38ddf7;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .heartbeaticon .fa-heartbeat {
@@ -175,7 +181,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .mostpopularcategories .regular .heartbeaticon h4 {
@@ -184,15 +190,17 @@
 }
 
 .mostpopularcategories .regular .codeicon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #f89035;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .codeicon .fa-code {
   color: white;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .mostpopularcategories .regular .codeicon h4 {
@@ -200,15 +208,17 @@
 }
 
 .mostpopularcategories .regular .businessicon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #b3d36a;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .businessicon .fa-chart-bar {
   color: white;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .mostpopularcategories .regular .businessicon h4 {
@@ -216,15 +226,17 @@
 }
 
 .mostpopularcategories .regular .globeicon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #f6475f;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .globeicon .fa-globe {
   color: white;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .mostpopularcategories .regular .globeicon h4 {
@@ -232,15 +244,17 @@
 }
 
 .mostpopularcategories .regular .bookicon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #ffbc09;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .bookicon .fa-book {
   color: white;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
 }
 
 .mostpopularcategories .regular .bookicon h4 {
@@ -248,15 +262,17 @@
 }
 
 .mostpopularcategories .regular .cameraicon {
-  height: 200px;
+  height: 123px;
   width: 200px;
   background-color: #f94fa4;
+  margin-right: 10px;
+  border-radius: 6px;
 }
 
 .mostpopularcategories .regular .cameraicon .fa-camera {
   color: white;
   font-size: 40px;
-  margin-top: 55px;
+  margin-top: 30px;
   border-radius: 10px;
 }
 
@@ -482,5 +498,6 @@
 
 .coaching .text p {
   color: #ffffff;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
