@@ -46,9 +46,7 @@ body{
 
 .global{ 
      
-    .glb{
-        
-    }
+    
    .globals{
        .globalitem{
            .globalitems{
@@ -93,6 +91,7 @@ body{
             margin-left: 123px;
             margin-top: 63px;
             &:hover{
+                color: $yellow-color;
 
             }
         }
@@ -310,58 +309,110 @@ body{
 }
 //  About Us
 #about{
-    position: relative;
+    // position: relative;
     .aboutus{
-        margin-left: -215px;
+        // z-index: 1;
+        
         width: 800px;
         height: 400px;
         background-color: white;
         border-radius: 29%;
     
         .about{
-            margin-left: 150px;
-            margin-bottom: 36px;
-            margin-top: 5px;
+            position: absolute;
+            left: 66px;
+            top: 10px;
         }
 
         .main{
+            position: absolute;
+            left: 49px;
+            top: 64px;
             color: #939393;
-    font-size: 20px;
-    margin-left: 148px;
+            font-size: 20px;
+            font-size: $text-fontsize;
+            // font-size: $text-fontsize;
 
         }
 
         .text{
-            color: #939393;
-            font-size: 20px;
-            margin-left: 148px;
+            position: absolute;
+            font-size: $text-fontsize;
+         /* bottom: -43px; */
+          left: 47px;
+          top: 192px;
+          color: $text-color;
         }
 
        .number260{
            
-        margin-left: 158px;
-        margin-top: 24px;
-        color: #f6475f;
+      
+    position: absolute;
+    color: #f6475f;
+    
+    top: 268px;
+    left: 71px;
        }
        .free{
-        //    position: absolute;
-        margin-left: 146px;
-        margin-bottom: 7px;
+        position: absolute;
+        /* bottom: 25px; */
+        left: 38px;
+        top: 328px;
        }
 
          .number152{
             position: absolute;
             color: #b3d36a;
-             margin-left: 328px;
-             margin-top: -84px;
+            /* margin-left: 328px; */
+            /* margin-top: -84px; */
+            left: 228px;
+            top: 267px;
          }
         .paid{
-            margin-left: 308px;
-    margin-top: -30px;
+            position: absolute;
+            left: 195px;
+            top: 330px;
         }
 
     }
+
+    
+.about-right{
+    position: relative;
+    img{
+        width: 600px;
+        position: absolute;
+        left: 60px;
+        top: 64px;
+       
+
+    }
+ 
+
+
+     
+        .icon{    
+            font-size: 38px;
+            position: absolute;
+            color: white;;
+            top: 238px;
+            right: 267px;
+            &:hover{
+                font-size:45px;
+                color: $yellow-color;
+            }
 }
+        
+            }
+         
+        .round{
+        width: 20px;
+        height: 20px;
+        color: grey;
+        }
+
+    }
+   
 // View-all-Courses button
 .view-all{
     color: white;
@@ -375,7 +426,9 @@ body{
 }
 // Upcoming Events-in scss-i
 .events{
+    position: relative;
     .textarea{
+
         h1{
             text-align: center;
              color: $head-color;
@@ -437,6 +490,25 @@ body{
         }
         
     
+}
+
+// Activities
+.activities{
+
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../assets/img/counter_bg.jpg');
+    // width: 350px;
+    position: relative;
+    width: 1349px;
+    height: 534px
+    // height: ;
+    // counter{
+    //      .img{
+    //          color: $text-color;
+    //      }
+    // }
 }
 
 
@@ -529,7 +601,7 @@ body{
     }
 }
 
-// Foter
+// Footer
 
 // Get The Coaching Training Today!
 .coaching{
@@ -547,7 +619,5 @@ body{
              font-size: $text-fontsize;
             }
      }
-     .button{
-            .btn{}
-     }
+     
 }
