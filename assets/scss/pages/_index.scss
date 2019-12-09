@@ -1,0 +1,542 @@
+
+
+#navbar{
+    background-color: $black-color;
+    width: 1349px;
+    height: 66px;
+    .nav-left{
+        
+        .phone{
+            color: white;
+            margin-top: 24px;
+            margin-left: -78px;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+        .email{
+            margin-left: 50px;
+            color: white;
+            margin-top: -24px;
+            &:hover{
+            color: $yellow-color;
+    }
+        }
+    }
+    .nav-right{
+      
+        .list-group-items{
+                float: right;
+              padding: 20px;
+                list-style-type: none;
+                font-size: 20px;
+                color: white;
+                .items{
+                    margin-left: 5px;
+                    &:hover{
+                       color: $yellow-color;
+                    }
+                }
+   
+            }
+        }
+    }
+
+.global{ 
+     
+    .glb{
+        
+    }
+   .globals{
+       .globalitem{
+           .globalitems{
+
+            &:hover{
+                color: yellow;
+            }
+
+           }
+       }
+   }
+    }
+
+.edutext{
+     .edu{
+        h3{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+        }
+     }
+    .book{
+        img{
+            background-color: $red-color;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-left: 123px;
+            margin-top: 63px;
+            // border-radius: 50%;
+        }
+    }
+    .learn{
+        img{
+   
+            background-color: $yellow-color;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-left: 123px;
+            margin-top: 63px;
+            &:hover{
+
+            }
+        }
+    }
+    .instructors{
+        img{
+            background-color: $green-color;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            margin-left: 123px;
+            margin-top: 63px;
+        }
+    }
+ } 
+
+
+ 
+ .categories{
+     .textcategories{
+         h3{
+             text-align: center;
+         }
+
+         P{
+             text-align: center;
+         }
+     }
+ }
+
+  
+
+//   Our Courses
+.ourcourses{
+    h3{
+        text-align: center;
+        color: $head-color;
+
+    }
+    p{
+        text-align: center;
+        color:$text-color;
+
+    }
+    .alia{
+        overflow: hidden;
+        box-shadow: 5px,10px;
+        .img1{
+            transition: all 0.5s;
+            &:hover{
+                transform: scale(1.2);
+                
+            }
+        }
+
+        h5{
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+        .courseicons{
+            .fas{
+              color: $yellow-color;
+            }
+            .far{
+                margin-left: 28px;
+                &:hover{
+                    color: $yellow-color;
+                }
+            }
+        span{
+                &:hover{
+                    color: $yellow-color;
+                }
+            }
+        }
+        .card-foot{
+            img{
+                border-radius: 100%;
+            }
+            .btnlght{ 
+                background-color:$text-color;
+                margin-left: 40px; 
+                color: $green-color;
+               
+            }
+            .name{
+                &:hover{
+                    color: $yellow-color;
+                }
+            }
+        }
+    }
+}
+// Most Popular Categories scss-i
+.mostpopularcategories{
+    .textcategories{
+        h3{
+            text-align: center;
+            color: $head-color;
+        }
+        p{
+            text-align: center;
+            color: $text-color;
+
+        }
+    }
+
+    .regular {
+        text-align: center;
+        margin-top:50px;
+
+        .heartbeaticon{
+            height: 123px;
+            width: 200px;
+            background-color: $blue-color;
+          
+        .fa-heartbeat{
+           
+            // background-color:$red-color;
+            color:white;
+            text-align: center;
+            font-size:$icon-fontsize;
+            justify-content: center;
+            margin-top: 55px;
+        } 
+        h4{
+            color: white;
+            text-align: center;
+        }
+        }
+        .codeicon{
+            height: 123px;
+            width: 200px;
+            background-color: $orange-color;
+          .fa-code{
+           color: white;
+           font-size:$icon-fontsize;
+           margin-top: 55px;
+        }
+        h4{
+            color: white;
+        }
+        }
+        .businessicon{
+            height: 123px;
+            width: 200px;
+            background-color:$green-color;
+            .fa-chart-bar{
+                color: white;
+           font-size:$icon-fontsize;
+           margin-top: 55px;
+
+            }
+            h4{
+                color: white;
+
+            }
+        }
+        .globeicon{
+            height: 123px;
+            width: 200px;
+            background-color: $red-color;
+            .fa-globe{
+                color: white;
+                font-size:$icon-fontsize;
+                margin-top: 55px;
+
+            }
+            h4{
+                color: white;
+            }
+        }
+        .bookicon{
+            height: 123px;
+            width: 200px;
+            background-color: $yellow-color;
+
+            .fa-book{
+                color: white;
+                font-size:$icon-fontsize;
+                margin-top: 55px;
+            }
+
+            h4{
+                color: white;
+            }
+        }
+        .cameraicon{
+            height: 123px;
+            width: 200px;
+            background-color: $pink-color;
+
+            .fa-camera{
+                color: white;
+                font-size:$icon-fontsize;
+                margin-top: 55px;
+                border-radius: 10px;
+            }
+            h4{
+            color: white;
+            }
+        }
+    }
+
+}
+//  About Us
+#about{
+    position: relative;
+    .aboutus{
+        margin-left: -215px;
+        width: 800px;
+        height: 400px;
+        background-color: white;
+        border-radius: 29%;
+    
+        .about{
+            margin-left: 150px;
+            margin-bottom: 36px;
+            margin-top: 5px;
+        }
+
+        .main{
+            color: #939393;
+    font-size: 20px;
+    margin-left: 148px;
+
+        }
+
+        .text{
+            color: #939393;
+            font-size: 20px;
+            margin-left: 148px;
+        }
+
+       .number260{
+           
+        margin-left: 158px;
+        margin-top: 24px;
+        color: #f6475f;
+       }
+       .free{
+        //    position: absolute;
+        margin-left: 146px;
+        margin-bottom: 7px;
+       }
+
+         .number152{
+            position: absolute;
+            color: #b3d36a;
+             margin-left: 328px;
+             margin-top: -84px;
+         }
+        .paid{
+            margin-left: 308px;
+    margin-top: -30px;
+        }
+
+    }
+}
+// View-all-Courses button
+.view-all{
+    color: white;
+    .active{
+        color: white;
+        margin-left: 400px;
+        a{
+            color: white;
+        }
+    }
+}
+// Upcoming Events-in scss-i
+.events{
+    .textarea{
+        h1{
+            text-align: center;
+             color: $head-color;
+        }
+        p{
+            text-align: center;
+            color: $text-color;
+            font-size: $text-fontsize;
+        }
+    }
+    .time{
+        position: relative;
+        overflow: hidden;
+        img{
+            transition: all 0.5s;
+            &:hover{
+                transform: scale(1.2);
+            }
+        }
+            .hour{
+                color: white;
+                width: 80px;
+                height: 60px;
+                background-color: $yellow-color;
+                border-radius: 10px;
+                margin-left: 6px;
+                position: absolute;
+                bottom: 82px;
+    
+            }
+            .date{
+                text-align: center;
+                width: 80px;
+                height: 90px;
+                background-color: white;
+                border-radius: 10px;
+                
+                margin-left: 5px;
+                position: absolute;
+                margin-top: 8px;
+            }
+        }
+        .body{
+             .card-text{
+                 color: $text-color;
+                 font-size: $text-fontsize;
+             }
+            .card-title{
+                &:hover{
+                    color:$yellow-color;
+                    transition: all 0.5s;
+                }
+            }
+            .eventicons{
+                .name{
+                    color: $yellow-color;
+                }
+            }
+        }
+        
+    
+}
+
+
+// Our Blog
+#ourblog{
+    .blog {
+       text-align: center;
+    }
+   .card-deck{
+       .card-body{
+           .card-title{
+                 &:hover{
+                     color: $yellow-color;
+                     transition: all 0.5s;
+                 }
+           }
+           .card-text{
+               font-size: $text-fontsize;
+               color: $text-color;
+
+           }
+           .read{
+               &:hover{
+                   color:$yellow-color;
+                   transition: all 0.5s;
+               }
+            }
+               .icondate{
+
+                   .time{
+                       color: $text-color;
+                      &:hover{
+                        color: $yellow-color;
+                        transition: all 0.5s;
+                    }
+                   }
+                   .commet{
+                       margin-left: 60px;
+                       color: $text-color;
+                       &:hover{
+                           color: $yellow-color;
+                           transition: all 0.5s;
+                       }
+                   }
+                     .fa-calendar{
+                         color: $yellow-color;
+
+                     }
+                     .fa-comments{
+                        color: $yellow-color;
+                        margin-left: 50px;
+                     }
+
+                  }
+           
+         }
+   }
+}
+// Our Cilent
+.ourclient{
+    .cilentabout{
+        h1{
+            text-align: center;
+            color: $head-color;
+        }
+        p{
+            text-align: center;
+            color: $text-color;
+            font-size: $text-fontsize;
+        }
+    }
+    .regularslider{
+        img{
+            width: 215px;
+            height: 174px;
+            color: $text-color;
+            margin-left: 27px;
+        }     
+
+    }
+}
+
+// View All Blog Button
+.viewblog{
+    .ylwbtn{
+        margin-left: 465px;
+        &:hover{
+            color: $red-color;
+        }
+    }
+}
+
+// Foter
+
+// Get The Coaching Training Today!
+.coaching{
+    background-color: $yellow-color;
+    height: 200px;
+    width: 1370px;
+     .text{
+         h3{
+             color: $white-color;
+             font-size: ;
+         }
+
+         p{
+             color:$white-color; 
+             font-size: $text-fontsize;
+            }
+     }
+     .button{
+            .btn{}
+     }
+}

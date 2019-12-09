@@ -1,0 +1,486 @@
+#navbar {
+  background-color: #343a40;
+  width: 1349px;
+  height: 66px;
+}
+
+#navbar .nav-left .phone {
+  color: white;
+  margin-top: 24px;
+  margin-left: -78px;
+}
+
+#navbar .nav-left .phone:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-left .email {
+  margin-left: 50px;
+  color: white;
+  margin-top: -24px;
+}
+
+#navbar .nav-left .email:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-right .list-group-items {
+  float: right;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+#navbar .nav-right .list-group-items .items {
+  margin-left: 5px;
+}
+
+#navbar .nav-right .list-group-items .items:hover {
+  color: #ffbc09;
+}
+
+.global .globals .globalitem .globalitems:hover {
+  color: yellow;
+}
+
+.edutext .edu h3 {
+  text-align: center;
+}
+
+.edutext .edu p {
+  text-align: center;
+}
+
+.edutext .book img {
+  background-color: #f6475f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.edutext .learn img {
+  background-color: #ffbc09;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.edutext .instructors img {
+  background-color: #b3d36a;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.categories .textcategories h3 {
+  text-align: center;
+}
+
+.categories .textcategories P {
+  text-align: center;
+}
+
+.ourcourses h3 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.ourcourses p {
+  text-align: center;
+  color: #939393;
+}
+
+.ourcourses .alia {
+  overflow: hidden;
+  -webkit-box-shadow: 5px,10px;
+          box-shadow: 5px,10px;
+}
+
+.ourcourses .alia .img1 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ourcourses .alia .img1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.ourcourses .alia h5:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons .fas {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons .far {
+  margin-left: 28px;
+}
+
+.ourcourses .alia .courseicons .far:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons span:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .card-foot img {
+  border-radius: 100%;
+}
+
+.ourcourses .alia .card-foot .btnlght {
+  background-color: #939393;
+  margin-left: 40px;
+  color: #b3d36a;
+}
+
+.ourcourses .alia .card-foot .name:hover {
+  color: #ffbc09;
+}
+
+.mostpopularcategories .textcategories h3 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.mostpopularcategories .textcategories p {
+  text-align: center;
+  color: #939393;
+}
+
+.mostpopularcategories .regular {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.mostpopularcategories .regular .heartbeaticon {
+  height: 200px;
+  width: 200px;
+  background-color: #38ddf7;
+}
+
+.mostpopularcategories .regular .heartbeaticon .fa-heartbeat {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 55px;
+}
+
+.mostpopularcategories .regular .heartbeaticon h4 {
+  color: white;
+  text-align: center;
+}
+
+.mostpopularcategories .regular .codeicon {
+  height: 200px;
+  width: 200px;
+  background-color: #f89035;
+}
+
+.mostpopularcategories .regular .codeicon .fa-code {
+  color: white;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+.mostpopularcategories .regular .codeicon h4 {
+  color: white;
+}
+
+.mostpopularcategories .regular .businessicon {
+  height: 200px;
+  width: 200px;
+  background-color: #b3d36a;
+}
+
+.mostpopularcategories .regular .businessicon .fa-chart-bar {
+  color: white;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+.mostpopularcategories .regular .businessicon h4 {
+  color: white;
+}
+
+.mostpopularcategories .regular .globeicon {
+  height: 200px;
+  width: 200px;
+  background-color: #f6475f;
+}
+
+.mostpopularcategories .regular .globeicon .fa-globe {
+  color: white;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+.mostpopularcategories .regular .globeicon h4 {
+  color: white;
+}
+
+.mostpopularcategories .regular .bookicon {
+  height: 200px;
+  width: 200px;
+  background-color: #ffbc09;
+}
+
+.mostpopularcategories .regular .bookicon .fa-book {
+  color: white;
+  font-size: 40px;
+  margin-top: 55px;
+}
+
+.mostpopularcategories .regular .bookicon h4 {
+  color: white;
+}
+
+.mostpopularcategories .regular .cameraicon {
+  height: 200px;
+  width: 200px;
+  background-color: #f94fa4;
+}
+
+.mostpopularcategories .regular .cameraicon .fa-camera {
+  color: white;
+  font-size: 40px;
+  margin-top: 55px;
+  border-radius: 10px;
+}
+
+.mostpopularcategories .regular .cameraicon h4 {
+  color: white;
+}
+
+#about {
+  position: relative;
+}
+
+#about .aboutus {
+  margin-left: -215px;
+  width: 800px;
+  height: 400px;
+  background-color: white;
+  border-radius: 29%;
+}
+
+#about .aboutus .about {
+  margin-left: 150px;
+  margin-bottom: 36px;
+  margin-top: 5px;
+}
+
+#about .aboutus .main {
+  color: #939393;
+  font-size: 20px;
+  margin-left: 148px;
+}
+
+#about .aboutus .text {
+  color: #939393;
+  font-size: 20px;
+  margin-left: 148px;
+}
+
+#about .aboutus .number260 {
+  margin-left: 158px;
+  margin-top: 24px;
+  color: #f6475f;
+}
+
+#about .aboutus .free {
+  margin-left: 146px;
+  margin-bottom: 7px;
+}
+
+#about .aboutus .number152 {
+  position: absolute;
+  color: #b3d36a;
+  margin-left: 328px;
+  margin-top: -84px;
+}
+
+#about .aboutus .paid {
+  margin-left: 308px;
+  margin-top: -30px;
+}
+
+.view-all {
+  color: white;
+}
+
+.view-all .active {
+  color: white;
+  margin-left: 400px;
+}
+
+.view-all .active a {
+  color: white;
+}
+
+.events .textarea h1 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.events .textarea p {
+  text-align: center;
+  color: #939393;
+  font-size: 20px;
+}
+
+.events .time {
+  position: relative;
+  overflow: hidden;
+}
+
+.events .time img {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.events .time img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.events .time .hour {
+  color: white;
+  width: 80px;
+  height: 60px;
+  background-color: #ffbc09;
+  border-radius: 10px;
+  margin-left: 6px;
+  position: absolute;
+  bottom: 82px;
+}
+
+.events .time .date {
+  text-align: center;
+  width: 80px;
+  height: 90px;
+  background-color: white;
+  border-radius: 10px;
+  margin-left: 5px;
+  position: absolute;
+  margin-top: 8px;
+}
+
+.events .body .card-text {
+  color: #939393;
+  font-size: 20px;
+}
+
+.events .body .card-title:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.events .body .eventicons .name {
+  color: #ffbc09;
+}
+
+#ourblog .blog {
+  text-align: center;
+}
+
+#ourblog .card-deck .card-body .card-title:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#ourblog .card-deck .card-body .card-text {
+  font-size: 20px;
+  color: #939393;
+}
+
+#ourblog .card-deck .card-body .read:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#ourblog .card-deck .card-body .icondate .time {
+  color: #939393;
+}
+
+#ourblog .card-deck .card-body .icondate .time:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#ourblog .card-deck .card-body .icondate .commet {
+  margin-left: 60px;
+  color: #939393;
+}
+
+#ourblog .card-deck .card-body .icondate .commet:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#ourblog .card-deck .card-body .icondate .fa-calendar {
+  color: #ffbc09;
+}
+
+#ourblog .card-deck .card-body .icondate .fa-comments {
+  color: #ffbc09;
+  margin-left: 50px;
+}
+
+.ourclient .cilentabout h1 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.ourclient .cilentabout p {
+  text-align: center;
+  color: #939393;
+  font-size: 20px;
+}
+
+.ourclient .regularslider img {
+  width: 215px;
+  height: 174px;
+  color: #939393;
+  margin-left: 27px;
+}
+
+.viewblog .ylwbtn {
+  margin-left: 465px;
+}
+
+.viewblog .ylwbtn:hover {
+  color: #f6475f;
+}
+
+.coaching {
+  background-color: #ffbc09;
+  height: 200px;
+  width: 1370px;
+}
+
+.coaching .text h3 {
+  color: #ffffff;
+}
+
+.coaching .text p {
+  color: #ffffff;
+}
+/*# sourceMappingURL=style.css.map */
