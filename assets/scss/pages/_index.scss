@@ -492,28 +492,77 @@ body{
     
 }
 
+// 
+
 // Activities
 .activities{
 
-    height: 500px;
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('../../assets/img/counter_bg.jpg');
-    // width: 350px;
-    position: relative;
+    // position: relative;
     width: 1349px;
-    height: 534px
-    // height: ;
-    // counter{
-    //      .img{
-    //          color: $text-color;
-    //      }
-    // }
+    height: 534px;
+    
+    
 }
+// Students Says
+.studentsay{
+    .text{
+        h2{
+            text-align: center;
+            color: $head-color;
+        }
 
+        p{
+            text-align: center;
+            color: $text-color;
+            font-size: $text-fontsize;
+        }
+    }
+    .student{
+       
+        .cscard{
+            
+            img{
+                border-radius: 13px;
+                //  position: absolute;
+                //  top: 20px;
+                //  left: -5px;
+            }
+
+             h4{
+                font-size: 1.5rem;
+                // position: absolute;
+                // left: 146px;
+                // top: 10px;
+             }
+
+             span{
+                // left: 156px;
+                // top: 41px;
+                // position: absolute;
+                color: $yellow-color;
+              
+            }
+            p{   
+                // position: absolute;
+                // left: 137px;
+                // top: 94px;
+            
+            
+            }
+             
+ 
+
+        }
+    }
+}
 
 // Our Blog
 #ourblog{
+   
     .blog {
        text-align: center;
     }
@@ -567,6 +616,7 @@ body{
          }
    }
 }
+
 // Our Cilent
 .ourclient{
     .cilentabout{

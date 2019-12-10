@@ -455,13 +455,35 @@ body {
 }
 
 .activities {
-  height: 500px;
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("../../assets/img/counter_bg.jpg");
-  position: relative;
   width: 1349px;
   height: 534px;
+}
+
+.studentsay .text h2 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.studentsay .text p {
+  text-align: center;
+  color: #939393;
+  font-size: 20px;
+}
+
+.studentsay .student .cscard img {
+  border-radius: 13px;
+}
+
+.studentsay .student .cscard h4 {
+  font-size: 1.5rem;
+}
+
+.studentsay .student .cscard span {
+  color: #ffbc09;
 }
 
 #ourblog .blog {
