@@ -509,6 +509,7 @@ body{
 }
 // Students Says
 .studentsay{
+    position: relative;
     .text{
         h2{
             text-align: center;
@@ -521,44 +522,31 @@ body{
             font-size: $text-fontsize;
         }
     }
-    .student{
-       
-        .cscard{
-            
-            img{
-                border-radius: 13px;
-                //  position: absolute;
-                //  top: 20px;
-                //  left: -5px;
-            }
+    .studentimage{
+        position: relative;
+          img{
+              position: absolute;
+              left: 42px;
+              top: 42px;
+          }
+    }
+    .studenttext{
+position:relative;
+        h4{}
 
-             h4{
-                font-size: 1.5rem;
-                // position: absolute;
-                // left: 146px;
-                // top: 10px;
-             }
+        span{
+            color: $yellow-color;
+        }
 
-             span{
-                // left: 156px;
-                // top: 41px;
-                // position: absolute;
-                color: $yellow-color;
-              
-            }
-            p{   
-                // position: absolute;
-                // left: 137px;
-                // top: 94px;
-            
-            
-            }
-             
- 
-
+        p{
+            color: $text-color;
+          
         }
     }
-}
+
+        }
+    
+
 
 // Our Blog
 #ourblog{
@@ -651,23 +639,108 @@ body{
     }
 }
 
-// Footer
+// Footer Start
+
+// Section - 1
 
 // Get The Coaching Training Today!
 .coaching{
     background-color: $yellow-color;
-    height: 200px;
+    height: 150px;
     width: 1370px;
      .text{
-         h3{
-             color: $white-color;
+         position: relative;
+         h2{
+            color: white;
+            font-size: 40px;
+            position: absolute;
+            top: 42px;
+            left: -51px;
              
          }
 
          p{
-             color:$white-color; 
+             color:white; 
              font-size: $text-fontsize;
+             position: absolute;
+    top: 109px;
+    left: -51px
             }
      }
+     .startbutton{
+         position: relative;
+        .btn{
+            border: 2px solid white;
+            color: white;
+            position: absolute;
+            left: 110px;
+            top: 72px;
+            padding: 10px;
+            width: 127px;
+            overflow: hidden;
+            position: relative;
+            &:after {
+                background: #fff;
+                content: "";
+                height: 155px;
+                left: -75px;
+                opacity: .2;
+              
+            &:hover{
+                color: $yellow-color;
+                transition: all 0.5s;
+             
+                  }
+            }
+        }
+     }
+    
      
+}
+
+// Information Footer
+.edufooter{
+    width: 1370px;
+    height: 400px;
+    background-color:$black-color;
+    .items{
+        position: relative;
+        .globallogo{
+            img{
+                position: relative;
+                border-style: none;
+                 top: 85px;
+                  left: -26px;
+               }
+             }
+              .text{
+            p{
+                color:white;
+                color: white;
+   
+          position: relative;
+           top: 102px;
+           left: -15px;
+
+            }
+            
+        }
+        .iconinfo{
+            position: relative;
+            span{
+                color:white;
+                position: absolute;
+                top: 103px;
+                &:hover{
+                    color: $yellow-color;
+                }
+            }
+            .fas{
+                color: white;
+             position: relative;
+            top: 103px;
+             left: -11px;
+            }
+        }
+    }
 }

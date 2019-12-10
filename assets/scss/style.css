@@ -463,6 +463,10 @@ body {
   height: 534px;
 }
 
+.studentsay {
+  position: relative;
+}
+
 .studentsay .text h2 {
   text-align: center;
   color: #2a2c2d;
@@ -474,16 +478,26 @@ body {
   font-size: 20px;
 }
 
-.studentsay .student .cscard img {
-  border-radius: 13px;
+.studentsay .studentimage {
+  position: relative;
 }
 
-.studentsay .student .cscard h4 {
-  font-size: 1.5rem;
+.studentsay .studentimage img {
+  position: absolute;
+  left: 42px;
+  top: 42px;
 }
 
-.studentsay .student .cscard span {
+.studentsay .studenttext {
+  position: relative;
+}
+
+.studentsay .studenttext span {
   color: #ffbc09;
+}
+
+.studentsay .studenttext p {
+  color: #939393;
 }
 
 #ourblog .blog {
@@ -565,16 +579,103 @@ body {
 
 .coaching {
   background-color: #ffbc09;
-  height: 200px;
+  height: 150px;
   width: 1370px;
 }
 
-.coaching .text h3 {
-  color: #ffffff;
+.coaching .text {
+  position: relative;
+}
+
+.coaching .text h2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 42px;
+  left: -51px;
 }
 
 .coaching .text p {
-  color: #ffffff;
+  color: white;
   font-size: 20px;
+  position: absolute;
+  top: 109px;
+  left: -51px;
+}
+
+.coaching .startbutton {
+  position: relative;
+}
+
+.coaching .startbutton .btn {
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 72px;
+  padding: 10px;
+  width: 127px;
+  overflow: hidden;
+  position: relative;
+}
+
+.coaching .startbutton .btn:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+}
+
+.coaching .startbutton .btn:after:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.edufooter {
+  width: 1370px;
+  height: 400px;
+  background-color: #343a40;
+}
+
+.edufooter .items {
+  position: relative;
+}
+
+.edufooter .items .globallogo img {
+  position: relative;
+  border-style: none;
+  top: 85px;
+  left: -26px;
+}
+
+.edufooter .items .text p {
+  color: white;
+  color: white;
+  position: relative;
+  top: 102px;
+  left: -15px;
+}
+
+.edufooter .items .iconinfo {
+  position: relative;
+}
+
+.edufooter .items .iconinfo span {
+  color: white;
+  position: absolute;
+  top: 103px;
+}
+
+.edufooter .items .iconinfo span:hover {
+  color: #ffbc09;
+}
+
+.edufooter .items .iconinfo .fas {
+  color: white;
+  position: relative;
+  top: 103px;
+  left: -11px;
 }
 /*# sourceMappingURL=style.css.map */

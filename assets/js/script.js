@@ -13,11 +13,11 @@ $(".regularslider").slick({
     slidesToScroll:1
 });
 
-// $(".student").slick({
-//     infinity:true,
-//     slidesToShow:2,
-//     slidesToScroll:1
-// });
+$(".student").slick({
+    infinity:true,
+    slidesToShow:1,
+    slidesToScroll:1
+});
 
 
 
