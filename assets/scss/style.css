@@ -44,6 +44,33 @@ body {
   color: #ffbc09;
 }
 
+.slidersrv .carousel .carousel-inner .carousel-item {
+  position: relative;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item .img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 580px;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item h1 {
+  position: absolute;
+  font-size: 50px;
+  top: 186px;
+  left: 353px;
+  color: white;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item p {
+  position: absolute;
+  top: 227px;
+  margin-bottom: 1rem;
+  left: 309px;
+  font-size: 28px;
+}
+
 .global .globals .globalitem .globalitems:hover {
   color: yellow;
 }
