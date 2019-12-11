@@ -635,7 +635,7 @@ body {
 
 .edufooter {
   width: 1370px;
-  height: 400px;
+  height: 500px;
   background-color: #343a40;
 }
 
@@ -708,13 +708,88 @@ body {
 
 .edufooter .recent h5 {
   color: white;
+  position: relative;
+  left: -105px;
+  top: 95px;
+}
+
+.edufooter .recent .imageinfo {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.edufooter .recent .imageinfo img {
+  position: relative;
+  top: 72px;
+  vertical-align: middle;
+  border-style: none;
+  left: -197px;
 }
 
 .edufooter .recent .imageinfo p {
+  position: absolute;
+  top: 76px;
+  left: -116px;
   color: white;
 }
 
 .edufooter .recent .imageinfo span {
+  position: absolute;
+  top: 146px;
+  left: -194px;
   color: #939393;
+}
+
+.edufooter .recent .imageinfo2 {
+  position: absolute;
+  left: 83px;
+}
+
+.edufooter .recent .imageinfo2 img {
+  vertical-align: middle;
+  position: relative;
+  left: -181px;
+  top: 159px;
+}
+
+.edufooter .recent .imageinfo2 span {
+  vertical-align: middle;
+  border-style: none;
+  position: relative;
+  left: -252px;
+  top: 202px;
+}
+
+.edufooter .recent .imageinfo2 p {
+  position: absolute;
+  left: -109px;
+  top: 162px;
+  color: white;
+}
+
+.edufooter .recent .imageinfo3 {
+  position: relative;
+  top: 69px;
+  left: 85px;
+}
+
+.edufooter .recent .imageinfo3 img {
+  position: absolute;
+  left: -183px;
+  top: 196px;
+}
+
+.edufooter .recent .imageinfo3 span {
+  left: -185px;
+  position: absolute;
+  top: 267px;
+}
+
+.edufooter .recent .imageinfo3 p {
+  position: absolute;
+  left: -111px;
+  top: 202px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
