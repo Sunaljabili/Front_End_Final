@@ -2,6 +2,38 @@ body{
     overflow-x: hidden;
 }
 
+// Advertising
+.advertising{
+    width: 100%;
+    height: 60px;
+    background: $red-color;
+    .advert{
+        position: relative;
+        p{
+            position: absolute;
+            left: 220px;
+            top: 15px;
+            font-size: 20px;
+            color: white;
+        }
+        .get{
+            color: white;
+        }
+          .icon{
+            .clickbtn{
+                position: absolute;
+                left: 809px;
+                top: 11px;
+                color: black;
+                font-size: 24px;
+                color: white;
+          }
+        }
+    }
+}
+
+
+// Navbar
 #navbar{
     background-color: $black-color;
     width: 1349px;
@@ -65,16 +97,35 @@ body{
                    
                    p{
                     position: absolute;
-                    top: 227px;
+                    top: 243px;;
                     margin-bottom: 1rem;
                     left: 309px;
                     font-size: 28px;
+                    color:white;
                    }
                    .btn-warning{
-
+                    position: absolute;
+                    left: 500px;
+                    top: 296px;
+                    color: white;
+                    border: 1px solid white;
+                    width: 141px;
+                    height: 45px;
                    }
                    .btn-light{
-                 
+                    border: 1px solid white;
+                    position: relative;
+                    left: 648px;
+                    bottom: 283px;
+                    color: $yellow-color;
+                    width: 147px;
+                    height: 45px;
+                    margin-left: 20px;
+                    background-color: transparent;
+                    &:hover{
+                        background: white;
+                    }
+                  
                    }
                }
 
@@ -421,7 +472,6 @@ body{
        }
        .free{
         position: absolute;
-        /* bottom: 25px; */
         left: 38px;
         top: 328px;
        }
@@ -429,8 +479,6 @@ body{
          .number152{
             position: absolute;
             color: #b3d36a;
-            /* margin-left: 328px; */
-            /* margin-top: -84px; */
             left: 228px;
             top: 267px;
          }
@@ -455,8 +503,6 @@ body{
     }
  
 
-
-     
         .icon{    
             font-size: 38px;
             position: absolute;
@@ -562,17 +608,34 @@ body{
 
 // Activities
 .activities{
-
-    position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url('../../assets/img/counter_bg.jpg');
-    // position: relative;
-    width: 1349px;
-    height: 534px;
-    
-    
+padding: 120px 0px;
+background-image: url('../../assets/img/counter_bg.jpg');
+position: relative;
+    .item{
+        position: relative;
+        span{
+            color: white;
+            display: block;
+        }
+    }
+    .key{
+        font-size: 40px;
+    }
+     .value{
+         font-size: 20px;
+     }
 }
+
+
+// Our Teachers
+.ourteachers{
+    background-image: url('../../assets/img/teacher_bg.jpg');
+    width:100%;
+    height:500px;
+    background-color: #1c3b5b;z-index: 999;
+}
+
+
 // Students Says
 .studentsay{
     position: relative;
@@ -707,7 +770,6 @@ position:relative;
 
 // Footer Start
 
-// Section - 1
 
 // Get The Coaching Training Today!
 .coaching{

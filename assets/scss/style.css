@@ -2,6 +2,37 @@ body {
   overflow-x: hidden;
 }
 
+.advertising {
+  width: 100%;
+  height: 60px;
+  background: #f6475f;
+}
+
+.advertising .advert {
+  position: relative;
+}
+
+.advertising .advert p {
+  position: absolute;
+  left: 220px;
+  top: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.advertising .advert .get {
+  color: white;
+}
+
+.advertising .advert .icon .clickbtn {
+  position: absolute;
+  left: 809px;
+  top: 11px;
+  color: black;
+  font-size: 24px;
+  color: white;
+}
+
 #navbar {
   background-color: #343a40;
   width: 1349px;
@@ -65,10 +96,37 @@ body {
 
 .slidersrv .carousel .carousel-inner .carousel-item p {
   position: absolute;
-  top: 227px;
+  top: 243px;
   margin-bottom: 1rem;
   left: 309px;
   font-size: 28px;
+  color: white;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item .btn-warning {
+  position: absolute;
+  left: 500px;
+  top: 296px;
+  color: white;
+  border: 1px solid white;
+  width: 141px;
+  height: 45px;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item .btn-light {
+  border: 1px solid white;
+  position: relative;
+  left: 648px;
+  bottom: 283px;
+  color: #ffbc09;
+  width: 147px;
+  height: 45px;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.slidersrv .carousel .carousel-inner .carousel-item .btn-light:hover {
+  background: white;
 }
 
 .global .globals .globalitem .globalitems:hover {
@@ -380,7 +438,6 @@ body {
 
 #about .aboutus .free {
   position: absolute;
-  /* bottom: 25px; */
   left: 38px;
   top: 328px;
 }
@@ -388,8 +445,6 @@ body {
 #about .aboutus .number152 {
   position: absolute;
   color: #b3d36a;
-  /* margin-left: 328px; */
-  /* margin-top: -84px; */
   left: 228px;
   top: 267px;
 }
@@ -511,12 +566,34 @@ body {
 }
 
 .activities {
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 120px 0px;
   background-image: url("../../assets/img/counter_bg.jpg");
-  width: 1349px;
-  height: 534px;
+  position: relative;
+}
+
+.activities .item {
+  position: relative;
+}
+
+.activities .item span {
+  color: white;
+  display: block;
+}
+
+.activities .key {
+  font-size: 40px;
+}
+
+.activities .value {
+  font-size: 20px;
+}
+
+.ourteachers {
+  background-image: url("../../assets/img/teacher_bg.jpg");
+  width: 100%;
+  height: 500px;
+  background-color: #1c3b5b;
+  z-index: 999;
 }
 
 .studentsay {
