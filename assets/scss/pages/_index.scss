@@ -67,10 +67,16 @@ body{
         }
 
         p{
+            color: $text-color;
             text-align: center;
         }
      }
     .book{
+        // position: relative;
+        &:hover{
+            margin-top: 10px;
+
+        }
         img{
             background-color: $red-color;
             width: 70px;
@@ -79,6 +85,12 @@ body{
             margin-left: 123px;
             margin-top: 63px;
             // border-radius: 50%;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            color: $text-color;
         }
     }
     .learn{
@@ -95,6 +107,12 @@ body{
 
             }
         }
+        h3{
+            text-align: center;
+        }
+        p{
+            color: $text-color;
+        }
     }
     .instructors{
         img{
@@ -104,6 +122,12 @@ body{
             border-radius: 50%;
             margin-left: 123px;
             margin-top: 63px;
+        }
+        h3{
+            text-align: center;
+        }
+        p{
+            color: $text-color;
         }
     }
  } 
@@ -309,9 +333,9 @@ body{
 }
 //  About Us
 #about{
-    // position: relative;
+    
     .aboutus{
-        // z-index: 1;
+      
         
         width: 800px;
         height: 400px;
@@ -701,7 +725,7 @@ position:relative;
 // Information Footer
 .edufooter{
     width: 1370px;
-    height: 500px;
+    height: 450px;
     background-color:$black-color;
     .items{
         position: relative;
@@ -761,6 +785,8 @@ position:relative;
                      left: -19px;
                      &:hover{
                          color:$yellow-color;
+                         margin-left: 10px;
+                         transition: all 0.5s;
                      }
                 }
             }
@@ -788,23 +814,22 @@ position:relative;
                 left: -197px;
              }
              p{
-              
-    
                 position: absolute;
-                top: 76px;
-                left: -116px;
+                top: 66px;
+                left: -124px;
                 color: white;
                 }
              span{
                 position: absolute;
-                top: 146px;
-                left: -194px;
+                top: 116px;
+                left: -128px;
                 color: #939393;
              }
          }
          .imageinfo2{
-             position:absolute;
-             left: 83px;
+            position: absolute;
+            left: 84px;
+            top: 51px;
            img{
             vertical-align: middle;
             position: relative;
@@ -817,20 +842,21 @@ position:relative;
             vertical-align: middle;
             border-style: none;
             position: relative;
-            left: -252px;
-            top: 202px;
+            left: -178px;
+            top: 188px;
+            color: #939393;
            }
 
            p{
             position: absolute;
-            left: -109px;
-            top: 162px;
+            left: -111px;
+            top: 156px;
             color: white;
            }
          }
          .imageinfo3{
             position: relative;
-            top: 69px;
+            top: -3px;
             left: 85px;
            
              img{
@@ -839,16 +865,18 @@ position:relative;
                 top: 196px;
              }
 
-             span{    left: -185px;
+             span{    
+                left: -117px;
                 position: absolute;
-                top: 267px;
-               
+                top: 242px;
+                color: #939393;
                  
              }
 
-             p{position: absolute;
-                left: -111px;
-                top: 202px;
+             p{
+                position: absolute;
+                left: -116px;
+                top: 197px;
                 color: white;
                 
               
@@ -856,4 +884,99 @@ position:relative;
              }
          }
      }
+     .subscribe{
+        //  position: relative;
+         h4{
+            color: white;
+            position: absolute;
+            top: 90px;
+         }
+         p{
+            color: white;
+            position: relative;
+            top: 135px;
+            left: 6px;
+         }
+         .input{
+            position: relative;
+            display: flex;
+            top:132px;
+         }
+         .followicon{
+             position: relative;
+             h3{
+                 color: white;
+                position: absolute;
+                top: 124px;
+                left: 25px;
+             }
+
+             a{
+                text-decoration: none;
+                position: relative;
+                top: 166px;
+                margin-left: 10px;
+                
+                 .fab{
+                     color: white;
+                     font-size:$icon-fontsize;
+                     &:hover{
+                         color: $yellow-color;
+                         transition: all 0.2s;
+                     } 
+                 }
+             }
+        }
+     
+    }
+}
+
+// Footer End
+.footerend{
+    width: 100%;
+    height: 100px;
+    background-color: #202325;
+    .text-left{
+        position: relative;
+        a{
+            text-decoration: none;
+            color: white;
+          
+         P{
+            position: absolute;
+            top: 46px;
+            left: -60px;
+         }
+        }
+    }
+    .text-right{
+        position: relative;
+       
+         
+
+           .privacy{
+            color: white;
+    position: absolute;
+    left: 212px;
+    top: 44px;
+    &:hover{
+        color: $yellow-color;
+        transition: all 0.5s;
+    }
+           }
+
+           .terms{
+            color: white;
+            position: absolute;
+            left: 353px;
+             top: 45px;
+             &:hover{
+                 color:$yellow-color;
+                 transition: all 0.5s;
+             }
+           }
+
+
+     
+    }
 }
