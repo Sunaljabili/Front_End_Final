@@ -631,8 +631,55 @@ position: relative;
 .ourteachers{
     background-image: url('../../assets/img/teacher_bg.jpg');
     width:100%;
-    height:500px;
-    background-color: #1c3b5b;z-index: 999;
+    height:700px;
+.teacherinfo{
+    width: 100%;
+    height: 700px;
+    background-color: #1d3b5c;
+    opacity: 0.9;
+   
+}
+.teachertext{
+    position: relative;
+    h2{
+        text-align: center;
+        position: absolute;
+        left: 470px;
+        bottom: 565px;    
+        color: white;
+        font-size: 41px;
+    }
+    p{
+        text-align: center;
+        position: absolute;
+        bottom: 469px;
+        left: 91px;
+        color: white;
+        font-size: 22px;
+    }
+}
+ 
+.cards{
+    position: relative;
+    
+    bottom: 445px;
+    margin: -21px;
+    .card{
+        // position:absolute;
+        // bottom: 60px;
+    .card-head{
+        text-align: center;
+        &:hover{
+            color: $yellow-color;
+        }
+    }
+    .card-body{
+        text-align: center;
+        color: $text-color;
+    }
+    }
+   
+}
 }
 
 
@@ -661,8 +708,7 @@ position: relative;
     }
     .studenttext{
 position:relative;
-        h4{}
-
+       
         span{
             color: $yellow-color;
         }

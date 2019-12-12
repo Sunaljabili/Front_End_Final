@@ -591,9 +591,55 @@ body {
 .ourteachers {
   background-image: url("../../assets/img/teacher_bg.jpg");
   width: 100%;
-  height: 500px;
-  background-color: #1c3b5b;
-  z-index: 999;
+  height: 700px;
+}
+
+.ourteachers .teacherinfo {
+  width: 100%;
+  height: 700px;
+  background-color: #1d3b5c;
+  opacity: 0.9;
+}
+
+.ourteachers .teachertext {
+  position: relative;
+}
+
+.ourteachers .teachertext h2 {
+  text-align: center;
+  position: absolute;
+  left: 470px;
+  bottom: 565px;
+  color: white;
+  font-size: 41px;
+}
+
+.ourteachers .teachertext p {
+  text-align: center;
+  position: absolute;
+  bottom: 469px;
+  left: 91px;
+  color: white;
+  font-size: 22px;
+}
+
+.ourteachers .cards {
+  position: relative;
+  bottom: 445px;
+  margin: -21px;
+}
+
+.ourteachers .cards .card .card-head {
+  text-align: center;
+}
+
+.ourteachers .cards .card .card-head:hover {
+  color: #ffbc09;
+}
+
+.ourteachers .cards .card .card-body {
+  text-align: center;
+  color: #939393;
 }
 
 .studentsay {
