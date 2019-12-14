@@ -134,7 +134,11 @@ body{
        }
    }
     
+// Header Finished
 
+
+
+// Main Start..
 
 // Global
 .global{ 
@@ -165,7 +169,6 @@ body{
         }
      }
     .book{
-        // position: relative;
         &:hover{
             margin-top: 10px;
 
@@ -177,7 +180,7 @@ body{
             border-radius: 50%;
             margin-left: 123px;
             margin-top: 63px;
-            // border-radius: 50%;
+      
         }
         h3{
             text-align: center;
@@ -240,7 +243,6 @@ body{
      }
  }
 
-  
 
 //   Our Courses
 .ourcourses{
@@ -304,6 +306,8 @@ body{
         }
     }
 }
+
+
 // Most Popular Categories scss-i
 .mostpopularcategories{
     .textcategories{
@@ -425,6 +429,8 @@ body{
     }
 
 }
+
+
 //  About Us
 #about{
     
@@ -526,6 +532,7 @@ body{
 
     }
    
+
 // View-all-Courses button
 .view-all{
     color: white;
@@ -537,6 +544,8 @@ body{
         }
     }
 }
+
+
 // Upcoming Events-in scss-i
 .events{
     position: relative;
@@ -605,7 +614,7 @@ body{
     
 }
 
-// 
+
 
 // Activities
 .activities{
@@ -913,10 +922,6 @@ position:relative;
         }
     }
 }
-
-// Footer Start
-
-
 // Get The Coaching Training Today!
 .coaching{
     background-color: $yellow-color;
@@ -971,6 +976,11 @@ position:relative;
     
      
 }
+
+
+// Main Finished..
+
+// Footer Start
 
 // Information Footer
 .edufooter{

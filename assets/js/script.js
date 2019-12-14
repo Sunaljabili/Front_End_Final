@@ -15,7 +15,7 @@ $(".regularslider").slick({
 
 $(".student").slick({
     infinity:true,
-    slidesToShow:1,
+    slidesToShow:4,
     slidesToScroll:1
 });
 
