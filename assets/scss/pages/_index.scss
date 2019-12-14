@@ -1,6 +1,7 @@
 body{
     overflow-x: hidden;
 }
+// Header Start 
 
 // Advertising
 .advertising{
@@ -626,6 +627,105 @@ position: relative;
      }
 }
 
+// Online Courses
+.onlinecourses{
+    // background-image: url('../../assets/img/pattern_bg.png');
+    background-color: #1d3b5c;
+    width: 100%;
+    height: 650px;
+    .onlinephoto{
+        width: 100%;
+        height: 650px;
+            background-image: url('../../assets/img/pattern_bg.png');
+        opacity: 0.9;
+    }
+        .image-girl{
+            position: relative;
+        img{
+            position: absolute;
+            bottom: 108px;
+            left: 631px;
+        
+        }
+        }
+        .input-group{
+            position: relative;
+           .content{
+            width: 500px;
+            height: 500px;
+            background-color: #203E7D;
+            border-radius: 27px;
+            position: absolute;
+            bottom: 119px;
+            left: -43px;
+           }
+           .get{
+               color:white;
+               position: absolute;
+               margin: 8px;
+
+           }
+           .online{
+               color: $yellow-color;
+               position:absolute;
+               left: 208px;
+                margin: 7px;
+
+           }
+           .text{
+            position: absolute;
+            color: white;
+            /* bottom: 35px; */
+            top: 96px;
+            font-size: 18px;
+            text-align: center;
+            margin: 15px;
+           }
+           .inputs{
+               position: relative;
+               .one{
+                position: absolute;
+                bottom: 347px;
+                width: 168px;
+                left: -8px;
+                color: transparent
+               }
+               .two{
+                position: absolute;
+                width: 168px;
+                bottom: 347px;
+                left: 175px;
+            }
+            .three{
+                position: absolute;
+                width: 168px;
+                bottom: 289px;
+                left: -9px;
+            }
+            .four{
+                position: absolute;
+                 width: 168px;
+                 bottom: 288px;
+              left: 173px;
+              }
+              .five{
+                  position: relative;
+                  bottom: 185px;
+                 left: -14px;
+              }
+              .btn-warning{
+                position: absolute;
+                left: -11px;
+                bottom: 132px;
+                width: 142px;
+                height: 43px;
+                color: white;
+              }
+
+           }
+        }
+    
+}
 
 // Our Teachers
 .ourteachers{
@@ -1130,3 +1230,5 @@ position:relative;
      
     }
 }
+
+

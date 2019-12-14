@@ -588,6 +588,114 @@ body {
   font-size: 20px;
 }
 
+.onlinecourses {
+  background-color: #1d3b5c;
+  width: 100%;
+  height: 650px;
+}
+
+.onlinecourses .onlinephoto {
+  width: 100%;
+  height: 650px;
+  background-image: url("../../assets/img/pattern_bg.png");
+  opacity: 0.9;
+}
+
+.onlinecourses .image-girl {
+  position: relative;
+}
+
+.onlinecourses .image-girl img {
+  position: absolute;
+  bottom: 108px;
+  left: 631px;
+}
+
+.onlinecourses .input-group {
+  position: relative;
+}
+
+.onlinecourses .input-group .content {
+  width: 500px;
+  height: 500px;
+  background-color: #203E7D;
+  border-radius: 27px;
+  position: absolute;
+  bottom: 119px;
+  left: -43px;
+}
+
+.onlinecourses .input-group .get {
+  color: white;
+  position: absolute;
+  margin: 8px;
+}
+
+.onlinecourses .input-group .online {
+  color: #ffbc09;
+  position: absolute;
+  left: 208px;
+  margin: 7px;
+}
+
+.onlinecourses .input-group .text {
+  position: absolute;
+  color: white;
+  /* bottom: 35px; */
+  top: 96px;
+  font-size: 18px;
+  text-align: center;
+  margin: 15px;
+}
+
+.onlinecourses .input-group .inputs {
+  position: relative;
+}
+
+.onlinecourses .input-group .inputs .one {
+  position: absolute;
+  bottom: 347px;
+  width: 168px;
+  left: -8px;
+  color: transparent;
+}
+
+.onlinecourses .input-group .inputs .two {
+  position: absolute;
+  width: 168px;
+  bottom: 347px;
+  left: 175px;
+}
+
+.onlinecourses .input-group .inputs .three {
+  position: absolute;
+  width: 168px;
+  bottom: 289px;
+  left: -9px;
+}
+
+.onlinecourses .input-group .inputs .four {
+  position: absolute;
+  width: 168px;
+  bottom: 288px;
+  left: 173px;
+}
+
+.onlinecourses .input-group .inputs .five {
+  position: relative;
+  bottom: 185px;
+  left: -14px;
+}
+
+.onlinecourses .input-group .inputs .btn-warning {
+  position: absolute;
+  left: -11px;
+  bottom: 132px;
+  width: 142px;
+  height: 43px;
+  color: white;
+}
+
 .ourteachers {
   background-image: url("../../assets/img/teacher_bg.jpg");
   width: 100%;
@@ -754,6 +862,988 @@ body {
 
 .viewblog .ylwbtn:hover {
   color: #f6475f;
+}
+
+.coaching {
+  background-color: #ffbc09;
+  height: 150px;
+  width: 1370px;
+}
+
+.coaching .text {
+  position: relative;
+}
+
+.coaching .text h2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 42px;
+  left: -51px;
+}
+
+.coaching .text p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 109px;
+  left: -51px;
+}
+
+.coaching .startbutton {
+  position: relative;
+}
+
+.coaching .startbutton .btn {
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 72px;
+  padding: 10px;
+  width: 127px;
+  overflow: hidden;
+  position: relative;
+}
+
+.coaching .startbutton .btn:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+}
+
+.coaching .startbutton .btn:after:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.edufooter {
+  width: 1370px;
+  height: 450px;
+  background-color: #343a40;
+}
+
+.edufooter .items {
+  position: relative;
+}
+
+.edufooter .items .globallogo img {
+  position: relative;
+  border-style: none;
+  top: 85px;
+  left: -26px;
+}
+
+.edufooter .items .text p {
+  color: white;
+  color: white;
+  position: relative;
+  top: 102px;
+  left: -15px;
+}
+
+.edufooter .items .iconinfo {
+  position: relative;
+}
+
+.edufooter .items .iconinfo span {
+  color: white;
+  position: absolute;
+  top: 103px;
+}
+
+.edufooter .items .iconinfo span:hover {
+  color: #ffbc09;
+}
+
+.edufooter .items .iconinfo .fas {
+  color: white;
+  position: relative;
+  top: 103px;
+  left: -11px;
+}
+
+.edufooter .lists h5 {
+  color: white;
+  position: relative;
+  top: 90px;
+}
+
+.edufooter .lists ul a {
+  text-decoration: none;
+}
+
+.edufooter .lists ul a li {
+  list-style-type: none;
+  color: white;
+  position: relative;
+  top: 92px;
+  padding: 2px;
+  left: -19px;
+}
+
+.edufooter .lists ul a li:hover {
+  color: #ffbc09;
+  margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.edufooter .recent {
+  position: relative;
+}
+
+.edufooter .recent h5 {
+  color: white;
+  position: relative;
+  left: -105px;
+  top: 95px;
+}
+
+.edufooter .recent .imageinfo {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.edufooter .recent .imageinfo img {
+  position: relative;
+  top: 72px;
+  vertical-align: middle;
+  border-style: none;
+  left: -197px;
+}
+
+.edufooter .recent .imageinfo p {
+  position: absolute;
+  top: 66px;
+  left: -124px;
+  color: white;
+}
+
+.edufooter .recent .imageinfo span {
+  position: absolute;
+  top: 116px;
+  left: -128px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo2 {
+  position: absolute;
+  left: 84px;
+  top: 51px;
+}
+
+.edufooter .recent .imageinfo2 img {
+  vertical-align: middle;
+  position: relative;
+  left: -181px;
+  top: 159px;
+}
+
+.edufooter .recent .imageinfo2 span {
+  vertical-align: middle;
+  border-style: none;
+  position: relative;
+  left: -178px;
+  top: 188px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo2 p {
+  position: absolute;
+  left: -111px;
+  top: 156px;
+  color: white;
+}
+
+.edufooter .recent .imageinfo3 {
+  position: relative;
+  top: -3px;
+  left: 85px;
+}
+
+.edufooter .recent .imageinfo3 img {
+  position: absolute;
+  left: -183px;
+  top: 196px;
+}
+
+.edufooter .recent .imageinfo3 span {
+  left: -117px;
+  position: absolute;
+  top: 242px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo3 p {
+  position: absolute;
+  left: -116px;
+  top: 197px;
+  color: white;
+}
+
+.edufooter .subscribe h4 {
+  color: white;
+  position: absolute;
+  top: 90px;
+}
+
+.edufooter .subscribe p {
+  color: white;
+  position: relative;
+  top: 135px;
+  left: 6px;
+}
+
+.edufooter .subscribe .input {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 132px;
+}
+
+.edufooter .subscribe .followicon {
+  position: relative;
+}
+
+.edufooter .subscribe .followicon h3 {
+  color: white;
+  position: absolute;
+  top: 124px;
+  left: 25px;
+}
+
+.edufooter .subscribe .followicon a {
+  text-decoration: none;
+  position: relative;
+  top: 166px;
+  margin-left: 10px;
+}
+
+.edufooter .subscribe .followicon a .fab {
+  color: white;
+  font-size: 40px;
+}
+
+.edufooter .subscribe .followicon a .fab:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.footerend {
+  width: 100%;
+  height: 100px;
+  background-color: #202325;
+}
+
+.footerend .text-left {
+  position: relative;
+}
+
+.footerend .text-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerend .text-left a P {
+  position: absolute;
+  top: 46px;
+  left: -60px;
+}
+
+.footerend .text-right {
+  position: relative;
+}
+
+.footerend .text-right .privacy {
+  color: white;
+  position: absolute;
+  left: 212px;
+  top: 44px;
+}
+
+.footerend .text-right .privacy:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footerend .text-right .terms {
+  color: white;
+  position: absolute;
+  left: 353px;
+  top: 45px;
+}
+
+.footerend .text-right .terms:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.advertising {
+  width: 100%;
+  height: 60px;
+  background: #f6475f;
+}
+
+.advertising .advert {
+  position: relative;
+}
+
+.advertising .advert p {
+  position: absolute;
+  left: 220px;
+  top: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.advertising .advert .get {
+  color: white;
+}
+
+.advertising .advert .icon .clickbtn {
+  position: absolute;
+  left: 809px;
+  top: 11px;
+  color: black;
+  font-size: 24px;
+  color: white;
+}
+
+#navbar {
+  background-color: #343a40;
+  width: 1349px;
+  height: 66px;
+}
+
+#navbar .nav-left .phone {
+  color: white;
+  margin-top: 24px;
+  margin-left: -78px;
+}
+
+#navbar .nav-left .phone:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-left .email {
+  margin-left: 50px;
+  color: white;
+  margin-top: -24px;
+}
+
+#navbar .nav-left .email:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-right .list-group-items {
+  float: right;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+#navbar .nav-right .list-group-items .items {
+  margin-left: 5px;
+}
+
+#navbar .nav-right .list-group-items .items:hover {
+  color: #ffbc09;
+}
+
+.courses {
+  color: red;
+  width: 500px;
+  height: 200px;
+  background-image: url("../../img/about_img.jpg");
+  background-image: url("../../assets/img/about_bg.jpg");
+}
+
+.ourcourses h3 {
+  text-align: center;
+  color: #2a2c2d;
+}
+
+.ourcourses p {
+  text-align: center;
+  color: #939393;
+}
+
+.ourcourses .alia {
+  overflow: hidden;
+  -webkit-box-shadow: 5px,10px;
+          box-shadow: 5px,10px;
+}
+
+.ourcourses .alia .img1 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.ourcourses .alia .img1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.ourcourses .alia h5:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons .fas {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons .far {
+  margin-left: 28px;
+}
+
+.ourcourses .alia .courseicons .far:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .courseicons span:hover {
+  color: #ffbc09;
+}
+
+.ourcourses .alia .card-foot img {
+  border-radius: 100%;
+}
+
+.ourcourses .alia .card-foot .btnlght {
+  background-color: #939393;
+  margin-left: 40px;
+  color: #b3d36a;
+}
+
+.ourcourses .alia .card-foot .name:hover {
+  color: #ffbc09;
+}
+
+.coaching {
+  background-color: #ffbc09;
+  height: 150px;
+  width: 1370px;
+}
+
+.coaching .text {
+  position: relative;
+}
+
+.coaching .text h2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 42px;
+  left: -51px;
+}
+
+.coaching .text p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 109px;
+  left: -51px;
+}
+
+.coaching .startbutton {
+  position: relative;
+}
+
+.coaching .startbutton .btn {
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 72px;
+  padding: 10px;
+  width: 127px;
+  overflow: hidden;
+  position: relative;
+}
+
+.coaching .startbutton .btn:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+}
+
+.coaching .startbutton .btn:after:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.courses {
+  background-image: url("../../assets/img/about_bg.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.courses .text-left {
+  position: relative;
+}
+
+.courses .text-left h1 {
+  position: absolute;
+  color: white;
+  top: 115px;
+  font-size: 55px;
+}
+
+.courses .text-right {
+  position: relative;
+}
+
+.courses .text-right h6 {
+  position: absolute;
+  top: 116px;
+  font-size: 24px;
+  left: 332px;
+  color: white;
+}
+
+.courses .text-right h6:hover {
+  color: #ffbc09;
+}
+
+.courses .text-right span {
+  position: absolute;
+  top: 115px;
+  font-size: 22px;
+  right: 126px;
+  color: white;
+}
+
+.courses .text-right p {
+  position: absolute;
+  position: absolute;
+  font-size: 30px;
+  left: 419px;
+  top: 110px;
+  color: white;
+}
+
+.edufooter {
+  width: 1370px;
+  height: 450px;
+  background-color: #343a40;
+}
+
+.edufooter .items {
+  position: relative;
+}
+
+.edufooter .items .globallogo img {
+  position: relative;
+  border-style: none;
+  top: 85px;
+  left: -26px;
+}
+
+.edufooter .items .text p {
+  color: white;
+  color: white;
+  position: relative;
+  top: 102px;
+  left: -15px;
+}
+
+.edufooter .items .iconinfo {
+  position: relative;
+}
+
+.edufooter .items .iconinfo span {
+  color: white;
+  position: absolute;
+  top: 103px;
+}
+
+.edufooter .items .iconinfo span:hover {
+  color: #ffbc09;
+}
+
+.edufooter .items .iconinfo .fas {
+  color: white;
+  position: relative;
+  top: 103px;
+  left: -11px;
+}
+
+.edufooter .lists h5 {
+  color: white;
+  position: relative;
+  top: 90px;
+}
+
+.edufooter .lists ul a {
+  text-decoration: none;
+}
+
+.edufooter .lists ul a li {
+  list-style-type: none;
+  color: white;
+  position: relative;
+  top: 92px;
+  padding: 2px;
+  left: -19px;
+}
+
+.edufooter .lists ul a li:hover {
+  color: #ffbc09;
+  margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.edufooter .recent {
+  position: relative;
+}
+
+.edufooter .recent h5 {
+  color: white;
+  position: relative;
+  left: -105px;
+  top: 95px;
+}
+
+.edufooter .recent .imageinfo {
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.edufooter .recent .imageinfo img {
+  position: relative;
+  top: 72px;
+  vertical-align: middle;
+  border-style: none;
+  left: -197px;
+}
+
+.edufooter .recent .imageinfo p {
+  position: absolute;
+  top: 66px;
+  left: -124px;
+  color: white;
+}
+
+.edufooter .recent .imageinfo span {
+  position: absolute;
+  top: 116px;
+  left: -128px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo2 {
+  position: absolute;
+  left: 84px;
+  top: 51px;
+}
+
+.edufooter .recent .imageinfo2 img {
+  vertical-align: middle;
+  position: relative;
+  left: -181px;
+  top: 159px;
+}
+
+.edufooter .recent .imageinfo2 span {
+  vertical-align: middle;
+  border-style: none;
+  position: relative;
+  left: -178px;
+  top: 188px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo2 p {
+  position: absolute;
+  left: -111px;
+  top: 156px;
+  color: white;
+}
+
+.edufooter .recent .imageinfo3 {
+  position: relative;
+  top: -3px;
+  left: 85px;
+}
+
+.edufooter .recent .imageinfo3 img {
+  position: absolute;
+  left: -183px;
+  top: 196px;
+}
+
+.edufooter .recent .imageinfo3 span {
+  left: -117px;
+  position: absolute;
+  top: 242px;
+  color: #939393;
+}
+
+.edufooter .recent .imageinfo3 p {
+  position: absolute;
+  left: -116px;
+  top: 197px;
+  color: white;
+}
+
+.edufooter .subscribe h4 {
+  color: white;
+  position: absolute;
+  top: 90px;
+}
+
+.edufooter .subscribe p {
+  color: white;
+  position: relative;
+  top: 135px;
+  left: 6px;
+}
+
+.edufooter .subscribe .input {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  top: 132px;
+}
+
+.edufooter .subscribe .followicon {
+  position: relative;
+}
+
+.edufooter .subscribe .followicon h3 {
+  color: white;
+  position: absolute;
+  top: 124px;
+  left: 25px;
+}
+
+.edufooter .subscribe .followicon a {
+  text-decoration: none;
+  position: relative;
+  top: 166px;
+  margin-left: 10px;
+}
+
+.edufooter .subscribe .followicon a .fab {
+  color: white;
+  font-size: 40px;
+}
+
+.edufooter .subscribe .followicon a .fab:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.footerend {
+  width: 100%;
+  height: 100px;
+  background-color: #202325;
+}
+
+.footerend .text-left {
+  position: relative;
+}
+
+.footerend .text-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerend .text-left a P {
+  position: absolute;
+  top: 46px;
+  left: -60px;
+}
+
+.footerend .text-right {
+  position: relative;
+}
+
+.footerend .text-right .privacy {
+  color: white;
+  position: absolute;
+  left: 212px;
+  top: 44px;
+}
+
+.footerend .text-right .privacy:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.footerend .text-right .terms {
+  color: white;
+  position: absolute;
+  left: 353px;
+  top: 45px;
+}
+
+.footerend .text-right .terms:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.advertising {
+  width: 100%;
+  height: 60px;
+  background: #f6475f;
+}
+
+.advertising .advert {
+  position: relative;
+}
+
+.advertising .advert p {
+  position: absolute;
+  left: 220px;
+  top: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.advertising .advert .get {
+  color: white;
+}
+
+.advertising .advert .icon .clickbtn {
+  position: absolute;
+  left: 809px;
+  top: 11px;
+  color: black;
+  font-size: 24px;
+  color: white;
+}
+
+#navbar {
+  background-color: #343a40;
+  width: 1349px;
+  height: 66px;
+}
+
+#navbar .nav-left .phone {
+  color: white;
+  margin-top: 24px;
+  margin-left: -78px;
+}
+
+#navbar .nav-left .phone:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-left .email {
+  margin-left: 50px;
+  color: white;
+  margin-top: -24px;
+}
+
+#navbar .nav-left .email:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-right .list-group-items {
+  float: right;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+#navbar .nav-right .list-group-items .items {
+  margin-left: 5px;
+}
+
+#navbar .nav-right .list-group-items .items:hover {
+  color: #ffbc09;
+}
+
+.edutext .edu h3 {
+  text-align: center;
+}
+
+.edutext .edu p {
+  color: #939393;
+  text-align: center;
+}
+
+.edutext .book:hover {
+  margin-top: 10px;
+}
+
+.edutext .book img {
+  background-color: #f6475f;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.edutext .book h3 {
+  text-align: center;
+}
+
+.edutext .book p {
+  color: #939393;
+}
+
+.edutext .learn img {
+  background-color: #ffbc09;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.edutext .learn img:hover {
+  color: #ffbc09;
+}
+
+.edutext .learn h3 {
+  text-align: center;
+}
+
+.edutext .learn p {
+  color: #939393;
+}
+
+.edutext .instructors img {
+  background-color: #b3d36a;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 123px;
+  margin-top: 63px;
+}
+
+.edutext .instructors h3 {
+  text-align: center;
+}
+
+.edutext .instructors p {
+  color: #939393;
 }
 
 .coaching {
