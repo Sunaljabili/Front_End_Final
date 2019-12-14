@@ -77,62 +77,22 @@ body{
         }
     }
 
-    // Sliders Carousel
-   .slidersrv{
-       .carousel{
-           .carousel-inner{
-               .carousel-item{
-                   position: relative;
-                   .img{
-                       object-fit: cover;
-                       width: 100%;
-                       height: 580px;
-                   }
-                   h1{
-                    position: absolute;
-                    font-size: 50px;
-                    top: 186px;
-                    left: 353px;
-                    color: white;
-                   }
-                   
-                   p{
-                    position: absolute;
-                    top: 243px;;
-                    margin-bottom: 1rem;
-                    left: 309px;
-                    font-size: 28px;
-                    color:white;
-                   }
-                   .btn-warning{
-                    position: absolute;
-                    left: 500px;
-                    top: 296px;
-                    color: white;
-                    border: 1px solid white;
-                    width: 141px;
-                    height: 45px;
-                   }
-                   .btn-light{
-                    border: 1px solid white;
-                    position: relative;
-                    left: 648px;
-                    bottom: 283px;
-                    color: $yellow-color;
-                    width: 147px;
-                    height: 45px;
-                    margin-left: 20px;
-                    background-color: transparent;
-                    &:hover{
-                        background: white;
-                    }
-                  
-                   }
-               }
-
-           }
-       }
-   }
+    // Global
+.global{ 
+    .globals{
+        .globalitem{
+            .globalitems{
+ 
+             &:hover{
+                 color: yellow;
+             }
+ 
+            }
+        }
+    }
+     }
+ 
+   
     
 // Header Finished
 
@@ -140,20 +100,63 @@ body{
 
 // Main Start..
 
-// Global
-.global{ 
-   .globals{
-       .globalitem{
-           .globalitems{
-
-            &:hover{
-                color: yellow;
+ // Sliders Carousel
+ .slidersrv{
+    .carousel{
+        .carousel-inner{
+            .carousel-item{
+                position: relative;
+                .img{
+                    object-fit: cover;
+                    width: 100%;
+                    height: 580px;
+                }
+                h1{
+                 position: absolute;
+                 font-size: 50px;
+                 top: 186px;
+                 left: 353px;
+                 color: white;
+                }
+                
+                p{
+                 position: absolute;
+                 top: 243px;;
+                 margin-bottom: 1rem;
+                 left: 309px;
+                 font-size: 28px;
+                 color:white;
+                }
+                .btn-warning{
+                 position: absolute;
+                 left: 500px;
+                 top: 296px;
+                 color: white;
+                 border: 1px solid white;
+                 width: 141px;
+                 height: 45px;
+                }
+                .btn-light{
+                 border: 1px solid white;
+                 position: relative;
+                 left: 648px;
+                 bottom: 283px;
+                 color: $yellow-color;
+                 width: 147px;
+                 height: 45px;
+                 margin-left: 20px;
+                 background-color: transparent;
+                 &:hover{
+                     background: white;
+                 }
+               
+                }
             }
 
-           }
-       }
-   }
+        }
     }
+}
+
 
 // Edu Text
 

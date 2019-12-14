@@ -1,3 +1,365 @@
+// Header Start 
+
+// Advertising
+.advertising{
+    width: 100%;
+    height: 60px;
+    background: $red-color;
+    .advert{
+        position: relative;
+        p{
+            position: absolute;
+            left: 220px;
+            top: 15px;
+            font-size: 20px;
+            color: white;
+        }
+        .get{
+            color: white;
+        }
+          .icon{
+            .clickbtn{
+                position: absolute;
+                left: 809px;
+                top: 11px;
+                color: black;
+                font-size: 24px;
+                color: white;
+          }
+        }
+    }
+}
+
+
+// Navbar
+#navbar{
+    background-color: $black-color;
+    width: 1349px;
+    height: 66px;
+    .nav-left{
+        
+        .phone{
+            color: white;
+            margin-top: 24px;
+            margin-left: -78px;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+        .email{
+            margin-left: 50px;
+            color: white;
+            margin-top: -24px;
+            &:hover{
+            color: $yellow-color;
+    }
+        }
+    }
+    .nav-right{
+      
+        .list-group-items{
+                float: right;
+              padding: 20px;
+                list-style-type: none;
+                font-size: 20px;
+                color: white;
+                .items{
+                    margin-left: 5px;
+                    &:hover{
+                       color: $yellow-color;
+                    }
+                }
+   
+            }
+        }
+    }
+
+    // Global
+.global{ 
+    // position: fixed;
+    .globals{
+        .globalitem{
+            .globalitems{
+ 
+             &:hover{
+                 color: yellow;
+             }
+ 
+            }
+        }
+    }
+     }
+ 
+
+// Header Finished
+
+// Main Start
+
+// Courses image
+
+// About Us Page Intro
+.courses{
+    background-image: url('../../assets/img/about_bg.jpg');
+    width: 100%;
+    height: 300px;
+    .text-left{
+        position: relative;
+        h1{
+            position: absolute;
+            color: white;
+            top: 115px;
+            font-size: 55px;
+
+        }
+    }
+    .text-right{
+        position: relative;
+           
+        h6{
+            position: absolute;
+            top: 116px;
+            font-size: 24px;
+            left: 332px;
+            color: white;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+
+        span{
+            position:absolute;
+            top: 115px;
+            font-size: 22px;
+            right: 126px;
+            color:white;
+        }
+
+        p{
+            position:absolute;
+            position: absolute;
+            font-size: 30px;
+            left: 419px;
+            top: 110px;
+            color: white;
+        }
+    }
+ 
+
+}
+
+// Get in Touch
+.touch{
+    position: relative;
+    .textarea{
+       
+
+     .get{
+        text-align: center;
+         font-size: 47px;
+     }
+
+     .txt{
+        color: #939393;
+        font-size: 22px;
+        text-align: center;
+     }
+
+    }
+    .btn-warning{
+        background-color: #ffc107;
+        border-color: #ffc107;
+        position: absolute;
+        bottom: -42px;
+        left: 16px;
+        color: white;
+        width: 96px;
+        height: 41px
+    }
+}
+
+// Contact Information
+.contactinfo{
+    .information{
+        h1{
+            text-align: center;
+        }
+
+        p{
+            text-align: center;
+            color: $text-color;
+        }
+    }
+
+  
+    .card{
+        .color{
+     
+            width: 350px;
+            height: 235px;
+            background-color: #f6475f;
+            z-index: 999;
+            margin-top: -234px;
+            opacity: 0.7
+        }
+        .fas{
+            font-weight: 900;
+    position: absolute;
+    font-size: 79px;
+    z-index: 999;
+    left: 141px;
+    top: 32px;
+    color: white;
+        }
+        .adress{
+            position: absolute;
+            font-size: 31px;
+            z-index: 999;
+            left: 120px;
+            top: 101px;
+            color: white;
+        }
+        .street{
+            position: absolute;
+    top: 162px;
+    left: 46px;
+    z-index: 999;
+    color: white;
+    font-size: 19px;
+        }
+
+    }
+
+    .card1{
+        .color{
+     
+            width: 352px;
+            height: 236px;
+            background-color: $green-color;
+            z-index: 999;
+            margin-top: -236px;
+            opacity: 0.7
+        }
+        .fas{
+            font-weight: 900;
+    position: absolute;
+    font-size: 79px;
+    z-index: 999;
+    left: 158px;
+    top: 26px;
+    color: white;
+        }
+        .adress{
+            position: absolute;
+            font-size: 31px;
+            z-index: 999;
+            left: 135px;
+            top: 109px;
+            color: white;
+        }
+        .street{
+            position: absolute;
+    top: 162px;
+    left: 95px;
+    z-index: 999;
+    color: white;
+    font-size: 23px;
+        }
+    }
+
+    .card2{
+        .color{
+     
+            width: 352px;
+            height: 236px;
+            background-color: $yellow-color;
+            z-index: 999;
+            margin-top: -236px;
+            opacity: 0.7
+        }
+        .fas{
+            font-weight: 900;
+    position: absolute;
+    font-size: 79px;
+    z-index: 999;
+    left: 142px;
+    top: 26px;
+    color: white;
+        }
+        .adress{
+            position: absolute;
+            font-size: 31px;
+            z-index: 999;
+            left: 148px;
+            top: 109px;
+            color: white;
+        }
+        .street{
+            position: absolute;
+    top: 162px;
+    left: 95px;
+    z-index: 999;
+    color: white;
+    font-size: 23px;
+        }
+    }
+}
+
+// Get The Coaching Training Today!
+.coaching{
+    background-color: $yellow-color;
+    height: 150px;
+    width: 1370px;
+     .text{
+         position: relative;
+         h2{
+            color: white;
+            font-size: 40px;
+            position: absolute;
+            top: 42px;
+            left: -51px;
+             
+         }
+
+         p{
+             color:white; 
+             font-size: $text-fontsize;
+             position: absolute;
+    top: 109px;
+    left: -51px
+            }
+     }
+     .startbutton{
+         position: relative;
+        .btn{
+            border: 2px solid white;
+            color: white;
+            position: absolute;
+            left: 110px;
+            top: 72px;
+            padding: 10px;
+            width: 127px;
+            overflow: hidden;
+            position: relative;
+            &:after {
+                background: #fff;
+                content: "";
+                height: 155px;
+                left: -75px;
+                opacity: .2;
+              
+            &:hover{
+                color: $yellow-color;
+                transition: all 0.5s;
+             
+                  }
+            }
+        }
+     }
+    
+     
+}
+
+
 // Footer Start
 
 // Information Footer

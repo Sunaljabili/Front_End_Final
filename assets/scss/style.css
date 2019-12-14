@@ -75,6 +75,10 @@ body {
   color: #ffbc09;
 }
 
+.global .globals .globalitem .globalitems:hover {
+  color: yellow;
+}
+
 .slidersrv .carousel .carousel-inner .carousel-item {
   position: relative;
 }
@@ -127,10 +131,6 @@ body {
 
 .slidersrv .carousel .carousel-inner .carousel-item .btn-light:hover {
   background: white;
-}
-
-.global .globals .globalitem .globalitems:hover {
-  color: yellow;
 }
 
 .edutext .edu h3 {
@@ -2454,6 +2454,335 @@ body {
 }
 
 .footerend .text-right .terms:hover {
+  color: #ffbc09;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.advertising {
+  width: 100%;
+  height: 60px;
+  background: #f6475f;
+}
+
+.advertising .advert {
+  position: relative;
+}
+
+.advertising .advert p {
+  position: absolute;
+  left: 220px;
+  top: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.advertising .advert .get {
+  color: white;
+}
+
+.advertising .advert .icon .clickbtn {
+  position: absolute;
+  left: 809px;
+  top: 11px;
+  color: black;
+  font-size: 24px;
+  color: white;
+}
+
+#navbar {
+  background-color: #343a40;
+  width: 1349px;
+  height: 66px;
+}
+
+#navbar .nav-left .phone {
+  color: white;
+  margin-top: 24px;
+  margin-left: -78px;
+}
+
+#navbar .nav-left .phone:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-left .email {
+  margin-left: 50px;
+  color: white;
+  margin-top: -24px;
+}
+
+#navbar .nav-left .email:hover {
+  color: #ffbc09;
+}
+
+#navbar .nav-right .list-group-items {
+  float: right;
+  padding: 20px;
+  list-style-type: none;
+  font-size: 20px;
+  color: white;
+}
+
+#navbar .nav-right .list-group-items .items {
+  margin-left: 5px;
+}
+
+#navbar .nav-right .list-group-items .items:hover {
+  color: #ffbc09;
+}
+
+.global .globals .globalitem .globalitems:hover {
+  color: yellow;
+}
+
+.courses {
+  background-image: url("../../assets/img/about_bg.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.courses .text-left {
+  position: relative;
+}
+
+.courses .text-left h1 {
+  position: absolute;
+  color: white;
+  top: 115px;
+  font-size: 55px;
+}
+
+.courses .text-right {
+  position: relative;
+}
+
+.courses .text-right h6 {
+  position: absolute;
+  top: 116px;
+  font-size: 24px;
+  left: 332px;
+  color: white;
+}
+
+.courses .text-right h6:hover {
+  color: #ffbc09;
+}
+
+.courses .text-right span {
+  position: absolute;
+  top: 115px;
+  font-size: 22px;
+  right: 126px;
+  color: white;
+}
+
+.courses .text-right p {
+  position: absolute;
+  position: absolute;
+  font-size: 30px;
+  left: 419px;
+  top: 110px;
+  color: white;
+}
+
+.touch {
+  position: relative;
+}
+
+.touch .textarea .get {
+  text-align: center;
+  font-size: 47px;
+}
+
+.touch .textarea .txt {
+  color: #939393;
+  font-size: 22px;
+  text-align: center;
+}
+
+.touch .btn-warning {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  position: absolute;
+  bottom: -42px;
+  left: 16px;
+  color: white;
+  width: 96px;
+  height: 41px;
+}
+
+.contactinfo .information h1 {
+  text-align: center;
+}
+
+.contactinfo .information p {
+  text-align: center;
+  color: #939393;
+}
+
+.contactinfo .card .color {
+  width: 350px;
+  height: 235px;
+  background-color: #f6475f;
+  z-index: 999;
+  margin-top: -234px;
+  opacity: 0.7;
+}
+
+.contactinfo .card .fas {
+  font-weight: 900;
+  position: absolute;
+  font-size: 79px;
+  z-index: 999;
+  left: 141px;
+  top: 32px;
+  color: white;
+}
+
+.contactinfo .card .adress {
+  position: absolute;
+  font-size: 31px;
+  z-index: 999;
+  left: 120px;
+  top: 101px;
+  color: white;
+}
+
+.contactinfo .card .street {
+  position: absolute;
+  top: 162px;
+  left: 46px;
+  z-index: 999;
+  color: white;
+  font-size: 19px;
+}
+
+.contactinfo .card1 .color {
+  width: 352px;
+  height: 236px;
+  background-color: #b3d36a;
+  z-index: 999;
+  margin-top: -236px;
+  opacity: 0.7;
+}
+
+.contactinfo .card1 .fas {
+  font-weight: 900;
+  position: absolute;
+  font-size: 79px;
+  z-index: 999;
+  left: 158px;
+  top: 26px;
+  color: white;
+}
+
+.contactinfo .card1 .adress {
+  position: absolute;
+  font-size: 31px;
+  z-index: 999;
+  left: 135px;
+  top: 109px;
+  color: white;
+}
+
+.contactinfo .card1 .street {
+  position: absolute;
+  top: 162px;
+  left: 95px;
+  z-index: 999;
+  color: white;
+  font-size: 23px;
+}
+
+.contactinfo .card2 .color {
+  width: 352px;
+  height: 236px;
+  background-color: #ffbc09;
+  z-index: 999;
+  margin-top: -236px;
+  opacity: 0.7;
+}
+
+.contactinfo .card2 .fas {
+  font-weight: 900;
+  position: absolute;
+  font-size: 79px;
+  z-index: 999;
+  left: 142px;
+  top: 26px;
+  color: white;
+}
+
+.contactinfo .card2 .adress {
+  position: absolute;
+  font-size: 31px;
+  z-index: 999;
+  left: 148px;
+  top: 109px;
+  color: white;
+}
+
+.contactinfo .card2 .street {
+  position: absolute;
+  top: 162px;
+  left: 95px;
+  z-index: 999;
+  color: white;
+  font-size: 23px;
+}
+
+.coaching {
+  background-color: #ffbc09;
+  height: 150px;
+  width: 1370px;
+}
+
+.coaching .text {
+  position: relative;
+}
+
+.coaching .text h2 {
+  color: white;
+  font-size: 40px;
+  position: absolute;
+  top: 42px;
+  left: -51px;
+}
+
+.coaching .text p {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 109px;
+  left: -51px;
+}
+
+.coaching .startbutton {
+  position: relative;
+}
+
+.coaching .startbutton .btn {
+  border: 2px solid white;
+  color: white;
+  position: absolute;
+  left: 110px;
+  top: 72px;
+  padding: 10px;
+  width: 127px;
+  overflow: hidden;
+  position: relative;
+}
+
+.coaching .startbutton .btn:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+}
+
+.coaching .startbutton .btn:after:hover {
   color: #ffbc09;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
