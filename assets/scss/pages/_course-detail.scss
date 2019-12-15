@@ -1,0 +1,472 @@
+// Header Start
+
+// Advertising
+.advertising{
+    width: 100%;
+    height: 60px;
+    background: $red-color;
+    .advert{
+        position: relative;
+        p{
+            position: absolute;
+            left: 220px;
+            top: 15px;
+            font-size: 20px;
+            color: white;
+        }
+        .get{
+            color: white;
+        }
+          .icon{
+            .clickbtn{
+                position: absolute;
+                left: 809px;
+                top: 11px;
+                color: black;
+                font-size: 24px;
+                color: white;
+          }
+        }
+    }
+}
+
+
+// Navbar
+#navbar{
+    background-color: $black-color;
+    width: 1349px;
+    height: 66px;
+    .nav-left{
+        
+        .phone{
+            color: white;
+            margin-top: 24px;
+            margin-left: -78px;
+            &:hover{
+                color: $yellow-color;
+            }
+        }
+        .email{
+            margin-left: 50px;
+            color: white;
+            margin-top: -24px;
+            &:hover{
+            color: $yellow-color;
+    }
+        }
+    }
+    .nav-right{
+      
+        .list-group-items{
+                float: right;
+              padding: 20px;
+                list-style-type: none;
+                font-size: 20px;
+                color: white;
+                .items{
+                    margin-left: 5px;
+                    &:hover{
+                       color: $yellow-color;
+                    }
+                }
+   
+            }
+        }
+    }
+
+        // Global
+.global{ 
+    // position: fixed;
+    .globals{
+        .globalitem{
+            .globalitems{
+ 
+             &:hover{
+                 color: yellow;
+             }
+ 
+            }
+        }
+    }
+     }
+ 
+
+// Header Finished
+
+
+
+// Main Start
+
+// Course Detail Page Intro
+.courses{
+    background-image: url('../../assets/img/about_bg.jpg');
+    width: 100%;
+    height: 300px;
+    .text-left{
+        position: relative;
+        h1{
+            position: absolute;
+            color: white;
+            top: 115px;
+            font-size: 55px;
+
+        }
+    }
+    .text-right{
+        position: relative;
+           
+        h6{
+            position: absolute;
+            top: 116px;
+            font-size: 24px;
+            left: 298px;
+            color: white;
+        }
+            &:hover{
+                color: $yellow-color;
+            }
+        
+
+        span{
+            position: absolute;
+            top: 115px;
+            font-size: 22px;
+            right: 165px;
+            color: white;
+        }
+
+        p{
+            position:absolute;
+            position: absolute;
+            font-size: 27px;
+            left: 379px;
+            top: 110px;
+            color: white;
+        }
+    }
+    }
+ 
+
+
+
+// Get The Coaching Training Today!
+.coaching{
+    background-color: $yellow-color;
+    height: 150px;
+    width: 1370px;
+     .text{
+         position: relative;
+         h2{
+            color: white;
+            font-size: 40px;
+            position: absolute;
+            top: 42px;
+            left: -51px;
+             
+         }
+
+         p{
+             color:white; 
+             font-size: $text-fontsize;
+             position: absolute;
+    top: 109px;
+    left: -51px
+            }
+     }
+     .startbutton{
+         position: relative;
+        .btn{
+            border: 2px solid white;
+            color: white;
+            position: absolute;
+            left: 110px;
+            top: 72px;
+            padding: 10px;
+            width: 127px;
+            overflow: hidden;
+            position: relative;
+            &:after {
+                background: #fff;
+                content: "";
+                height: 155px;
+                left: -75px;
+                opacity: .2;
+              
+            &:hover{
+                color: $yellow-color;
+                transition: all 0.5s;
+             
+                  }
+            }
+        }
+     }
+    
+     
+}
+
+// Main Finished
+
+
+// Footer Start
+
+// Information Footer
+.edufooter{
+    width: 1370px;
+    height: 450px;
+    background-color:$black-color;
+    .items{
+        position: relative;
+        .globallogo{
+            img{
+                position: relative;
+                border-style: none;
+                 top: 85px;
+                  left: -26px;
+               }
+             }
+              .text{
+            p{
+                color:white;
+                color: white;
+   
+          position: relative;
+           top: 102px;
+           left: -15px;
+
+            }
+            
+        }
+        .iconinfo{
+            position: relative;
+            span{
+                color:white;
+                position: absolute;
+                top: 103px;
+                &:hover{
+                    color: $yellow-color;
+                }
+            }
+            .fas{
+                color: white;
+                 position: relative;
+               top: 103px;
+             left: -11px;
+            }
+        }
+    }
+    .lists{
+        h5{
+            color: white;
+            position: relative;
+            top: 90px;
+        }
+        ul{
+            a{
+                text-decoration: none;
+                li{
+                    list-style-type: none;
+                    color: white;
+                     position: relative;
+                    top: 92px;
+                    padding: 2px;
+                     left: -19px;
+                     &:hover{
+                         color:$yellow-color;
+                         margin-left: 10px;
+                         transition: all 0.5s;
+                     }
+                }
+            }
+        }
+    }
+     .recent{
+         position: relative;
+        
+         h5{ 
+            color: white;
+            position: relative;
+            left: -105px;
+            top: 95px;
+         }
+         .imageinfo{
+            position: relative;
+            left: 100px;
+            top: 30px;
+             img{
+
+                position: relative;
+                top: 72px;
+                vertical-align: middle;
+                border-style: none;
+                left: -197px;
+             }
+             p{
+                position: absolute;
+                top: 66px;
+                left: -124px;
+                color: white;
+                }
+             span{
+                position: absolute;
+                top: 116px;
+                left: -128px;
+                color: #939393;
+             }
+         }
+         .imageinfo2{
+            position: absolute;
+            left: 84px;
+            top: 51px;
+           img{
+            vertical-align: middle;
+            position: relative;
+            left: -181px;
+            top: 159px;
+           }
+
+           span{
+            
+            vertical-align: middle;
+            border-style: none;
+            position: relative;
+            left: -178px;
+            top: 188px;
+            color: #939393;
+           }
+
+           p{
+            position: absolute;
+            left: -111px;
+            top: 156px;
+            color: white;
+           }
+         }
+         .imageinfo3{
+            position: relative;
+            top: -3px;
+            left: 85px;
+           
+             img{
+                position: absolute;
+                left: -183px;
+                top: 196px;
+             }
+
+             span{    
+                left: -117px;
+                position: absolute;
+                top: 242px;
+                color: #939393;
+                 
+             }
+
+             p{
+                position: absolute;
+                left: -116px;
+                top: 197px;
+                color: white;
+                
+              
+                
+             }
+         }
+     }
+     .subscribe{
+        //  position: relative;
+         h4{
+            color: white;
+            position: absolute;
+            top: 90px;
+         }
+         p{
+            color: white;
+            position: relative;
+            top: 135px;
+            left: 6px;
+         }
+         .input{
+            position: relative;
+            display: flex;
+            top:132px;
+         }
+         .followicon{
+             position: relative;
+             h3{
+                 color: white;
+                position: absolute;
+                top: 124px;
+                left: 25px;
+             }
+
+             a{
+                text-decoration: none;
+                position: relative;
+                top: 166px;
+                margin-left: 10px;
+                
+                 .fab{
+                     color: white;
+                     font-size:$icon-fontsize;
+                     &:hover{
+                         color: $yellow-color;
+                         transition: all 0.2s;
+                     } 
+                 }
+             }
+        }
+     
+    }
+}
+
+// Footer End
+.footerend{
+    width: 100%;
+    height: 100px;
+    background-color: #202325;
+    .text-left{
+        position: relative;
+        a{
+            text-decoration: none;
+            color: white;
+          
+         P{
+            position: absolute;
+            top: 46px;
+            left: -60px;
+         }
+        }
+    }
+    .text-right{
+        position: relative;
+       
+         
+
+           .privacy{
+            color: white;
+    position: absolute;
+    left: 212px;
+    top: 44px;
+    &:hover{
+        color: $yellow-color;
+        transition: all 0.5s;
+    }
+           }
+
+           .terms{
+            color: white;
+            position: absolute;
+            left: 353px;
+             top: 45px;
+             &:hover{
+                 color:$yellow-color;
+                 transition: all 0.5s;
+             }
+           }
+
+
+     
+    }
+}
+
+
+// Footer Finished
