@@ -100,6 +100,70 @@ body{
 
 // Main Start..
 
+
+
+// Fixed iCons
+.iconsfixed{
+    .icons{
+      a{
+          text-decoration: none;
+       
+        .shopcar{
+            position: fixed;
+            font-size: 25px;
+            right: 8px;
+            top: 190px;
+            width: 40px;
+            height: 36px;
+            background-color: $green-color;
+             color: white;
+            justify-content: center;
+            padding: 5px;
+            z-index: 999;
+        }
+      }
+      a{
+        text-decoration: none;
+        .fa-cog{
+position: fixed;
+font-size: 25px;
+right: 8px;
+top: 227px;
+width: 40px;
+height: 36px;
+background-color: $black-color;
+ color: white;
+justify-content: center;
+padding: 7px;
+z-index: 999;
+        }
+      }
+      a{
+        text-decoration: none;
+          .fa-angle-up{
+            position: fixed;
+            font-size: 31px;
+            right: 47px;
+            top: 531px;
+            width: 34px;
+            border-radius: 26px;
+            height: 36px;
+            background-color: #343a40;
+            color: white;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 6px;
+            z-index: 999;
+            &:hover{
+                background-color: $yellow-color;
+            }
+          }
+      }
+      
+    }
+}
+
  // Sliders Carousel
  .slidersrv{
     .carousel{
@@ -795,44 +859,7 @@ position: relative;
 }
 
 
-// Students Says
-.studentsay{
-    position: relative;
-    .text{
-        h2{
-            text-align: center;
-            color: $head-color;
-        }
 
-        p{
-            text-align: center;
-            color: $text-color;
-            font-size: $text-fontsize;
-        }
-    }
-    .studentimage{
-        position: relative;
-          img{
-              position: absolute;
-              left: 42px;
-              top: 42px;
-          }
-    }
-    .studenttext{
-position:relative;
-       
-        span{
-            color: $yellow-color;
-        }
-
-        p{
-            color: $text-color;
-          
-        }
-    }
-
-        }
-    
 
 
 // Our Blog

@@ -79,6 +79,71 @@ body {
   color: yellow;
 }
 
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .shopcar {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 190px;
+  width: 40px;
+  height: 36px;
+  background-color: #b3d36a;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-cog {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 227px;
+  width: 40px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-angle-up {
+  position: fixed;
+  font-size: 31px;
+  right: 47px;
+  top: 531px;
+  width: 34px;
+  border-radius: 26px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a .fa-angle-up:hover {
+  background-color: #ffbc09;
+}
+
 .slidersrv .carousel .carousel-inner .carousel-item {
   position: relative;
 }
@@ -750,43 +815,6 @@ body {
   color: #939393;
 }
 
-.studentsay {
-  position: relative;
-}
-
-.studentsay .text h2 {
-  text-align: center;
-  color: #2a2c2d;
-}
-
-.studentsay .text p {
-  text-align: center;
-  color: #939393;
-  font-size: 20px;
-}
-
-.studentsay .studentimage {
-  position: relative;
-}
-
-.studentsay .studentimage img {
-  position: absolute;
-  left: 42px;
-  top: 42px;
-}
-
-.studentsay .studenttext {
-  position: relative;
-}
-
-.studentsay .studenttext span {
-  color: #ffbc09;
-}
-
-.studentsay .studenttext p {
-  color: #939393;
-}
-
 #ourblog .blog {
   text-align: center;
 }
@@ -1258,6 +1286,71 @@ body {
 
 #navbar .nav-right .list-group-items .items:hover {
   color: #ffbc09;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .shopcar {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 190px;
+  width: 40px;
+  height: 36px;
+  background-color: #b3d36a;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-cog {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 227px;
+  width: 40px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-angle-up {
+  position: fixed;
+  font-size: 31px;
+  right: 47px;
+  top: 531px;
+  width: 34px;
+  border-radius: 26px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a .fa-angle-up:hover {
+  background-color: #ffbc09;
 }
 
 .courses {
@@ -1798,6 +1891,51 @@ body {
   z-index: 999;
 }
 
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-cog {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 227px;
+  width: 40px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-angle-up {
+  position: fixed;
+  font-size: 31px;
+  right: 47px;
+  top: 531px;
+  width: 34px;
+  border-radius: 26px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a .fa-angle-up:hover {
+  background-color: #ffbc09;
+}
+
 .courses {
   background-image: url("../../assets/img/about_bg.jpg");
   width: 100%;
@@ -2081,59 +2219,6 @@ body {
 .countup .image {
   background-color: #202325;
   color: #202325;
-}
-
-.studentsay {
-  position: relative;
-}
-
-.studentsay .text h2 {
-  text-align: center;
-  color: #2a2c2d;
-}
-
-.studentsay .text p {
-  text-align: center;
-  color: #939393;
-  font-size: 20px;
-}
-
-.studentsay .borderbox {
-  position: relative;
-  border: 1px solid black;
-}
-
-.studentsay .borderbox .studentimage {
-  position: relative;
-}
-
-.studentsay .borderbox .studentimage img {
-  position: absolute;
-  left: 1px;
-  top: 42px;
-  border-radius: 10px;
-}
-
-.studentsay .borderbox .studenttext {
-  position: relative;
-}
-
-.studentsay .borderbox .studenttext h4 {
-  position: relative;
-  right: 129px;
-}
-
-.studentsay .borderbox .studenttext span {
-  color: #ffbc09;
-  position: relative;
-  right: 132px;
-}
-
-.studentsay .borderbox .studenttext p {
-  color: #939393;
-  position: relative;
-  right: 127px;
-  top: 5px;
 }
 
 .coaching {
@@ -2534,6 +2619,71 @@ body {
 
 .global .globals .globalitem .globalitems:hover {
   color: yellow;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .shopcar {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 190px;
+  width: 40px;
+  height: 36px;
+  background-color: #b3d36a;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-cog {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 227px;
+  width: 40px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-angle-up {
+  position: fixed;
+  font-size: 31px;
+  right: 47px;
+  top: 531px;
+  width: 34px;
+  border-radius: 26px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a .fa-angle-up:hover {
+  background-color: #ffbc09;
 }
 
 .courses {
@@ -3132,6 +3282,71 @@ body {
   color: yellow;
 }
 
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .shopcar {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 190px;
+  width: 40px;
+  height: 36px;
+  background-color: #b3d36a;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 5px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-cog {
+  position: fixed;
+  font-size: 25px;
+  right: 8px;
+  top: 227px;
+  width: 40px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 7px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a {
+  text-decoration: none;
+}
+
+.iconsfixed .icons a .fa-angle-up {
+  position: fixed;
+  font-size: 31px;
+  right: 47px;
+  top: 531px;
+  width: 34px;
+  border-radius: 26px;
+  height: 36px;
+  background-color: #343a40;
+  color: white;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 6px;
+  z-index: 999;
+}
+
+.iconsfixed .icons a .fa-angle-up:hover {
+  background-color: #ffbc09;
+}
+
 .courses {
   background-image: url("../../assets/img/about_bg.jpg");
   width: 100%;
@@ -3180,6 +3395,140 @@ body {
   left: 379px;
   top: 110px;
   color: white;
+}
+
+.course-detail {
+  position: relative;
+}
+
+.course-detail .recentcourse {
+  position: relative;
+}
+
+.course-detail .recentcourse p {
+  position: absolute;
+  left: -64px;
+}
+
+.course-detail .recentcourse span {
+  position: absolute;
+  top: 44px;
+  left: -62px;
+  font-size: 12px;
+  color: #939393;
+}
+
+.course-detail .tags h5 {
+  position: relative;
+  font-size: 1.25rem;
+  left: 21px;
+  top: 9px;
+}
+
+.course-detail .tags .btn {
+  border: 1px solid whitesmoke;
+}
+
+.course-detail .tags .btn:hover {
+  background-color: #ffbc09;
+  color: white;
+}
+
+.course-detail .coursecategories span {
+  color: #939393;
+}
+
+.course-detail .coursecategories span:hover {
+  color: #ffbc09;
+}
+
+.course-detail .alia {
+  overflow: hidden;
+  -webkit-box-shadow: 5px,10px;
+          box-shadow: 5px,10px;
+}
+
+.course-detail .alia .img1 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.course-detail .alia .img1:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.course-detail .alia h5:hover {
+  color: #ffbc09;
+}
+
+.course-detail .alia .courseicons .fas {
+  color: #ffbc09;
+}
+
+.course-detail .alia .courseicons .far {
+  margin-left: 28px;
+}
+
+.course-detail .alia .courseicons .far:hover {
+  color: #ffbc09;
+}
+
+.course-detail .alia .courseicons span:hover {
+  color: #ffbc09;
+}
+
+.course-detail .alia .card-foot img {
+  border-radius: 100%;
+}
+
+.course-detail .alia .card-foot .btnlght {
+  background-color: #939393;
+  margin-left: 40px;
+  color: #b3d36a;
+}
+
+.course-detail .alia .card-foot .name:hover {
+  color: #ffbc09;
+}
+
+.course-detail .relatedcourse {
+  position: relative;
+}
+
+.course-detail .relatedcourse img {
+  width: 825px;
+  height: 550px;
+}
+
+.course-detail .relatedcourse .btn-secondary {
+  position: absolute;
+  border-color: #28a745;
+  z-index: 999;
+  bottom: 20px;
+  background-color: white;
+  left: 24px;
+  color: #b3d36a;
+  width: 114px;
+  height: 42px;
+}
+
+.course-detail .relatedcourse .btn-warning {
+  position: absolute;
+  bottom: 20px;
+  right: 58px;
+  color: white;
+  bottom: 20px;
+  width: 114px;
+  height: 42px;
+}
+
+.course-detail .alert .lists {
+  list-style: none;
+}
+
+.course-detail .alert .lists .list-group-items {
+  display: inline-block;
 }
 
 .coaching {

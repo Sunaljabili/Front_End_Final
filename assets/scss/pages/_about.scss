@@ -103,6 +103,44 @@ body{
             z-index: 999;
         }
       }
+      a{
+        text-decoration: none;
+        .fa-cog{
+position: fixed;
+font-size: 25px;
+right: 8px;
+top: 227px;
+width: 40px;
+height: 36px;
+background-color: $black-color;
+ color: white;
+justify-content: center;
+padding: 7px;
+z-index: 999;
+        }
+      }
+      a{
+        text-decoration: none;
+          .fa-angle-up{
+            position: fixed;
+            font-size: 31px;
+            right: 47px;
+            top: 531px;
+            width: 34px;
+            border-radius: 26px;
+            height: 36px;
+            background-color: #343a40;
+            color: white;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            padding: 6px;
+            z-index: 999;
+            &:hover{
+                background-color: $yellow-color;
+            }
+          }
+      }
       
     }
 }
@@ -410,61 +448,6 @@ body{
          }
     }
     
-// Student Say
-.studentsay{
-    position: relative;
-    .text{
-        h2{
-            text-align: center;
-            color: $head-color;
-        }
-
-        p{
-            text-align: center;
-            color: $text-color;
-            font-size: $text-fontsize;
-        }
-    }
-    .borderbox{
-        position: relative;
-        border: 1px solid black;
-    
-
-        .studentimage{
-            position: relative;
-            img{
-                position: absolute;
-                left: 1px;
-                top: 42px;
-                border-radius: 10px;
-    
-            }
-        }
-        .studenttext{
-            position: relative;
-    
-            h4{
-    position: relative;
-    right: 129px;
-            }
-            span{
-                color: #ffbc09;
-                position: relative;
-              
-                right: 132px
-    
-            }
-            p{
-                color: #939393;
-                position: relative;
-                right: 127px;
-                top: 5px;
-            }
-        }
-    }
-  
-}
-
 
 // Get The Coaching Training Today!
 .coaching{
